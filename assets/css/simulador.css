@@ -1,0 +1,20 @@
+#telefono * {font-style:normal;font-weight:400; display: inline-block; outline: none!important; font-size: 11px; letter-spacing: -0.2px; }
+#telefono { background-image: url('../img/simulador-sms/Nexus_5.png'); background-image: -webkit-image-set(url('../img/simulador-sms/Nexus_5.png') 1x,url('../img/simulador-sms/Nexus_5@2x.png') 2x); background-repeat: no-repeat; height: 502px; width: 255px; position: relative; padding: 80px 0 0 13px;}
+#telefono .telefono-container{ height: 300px; display: table-cell; width: 227px; vertical-align: bottom;}
+#telefono .telefono-container .mensajes{ width:100%; height:auto; overflow:hidden; overflow-y:auto; max-height:290px; padding: 0 10px 0 10px; }
+#telefono .mensajes > div { margin-top: 8px;}
+#telefono .mensajes div.mensaje {border-radius: 3px; padding: 10px; max-width: 175px; min-width: 5px;}
+#telefono .mensajes div.mensaje.enviadas{ background-color: #fff; float: right; }
+#telefono .mensajes div.mensaje.recibidas{ background-color: #66a031; color: #fff; float: left;}
+#telefono .mensajes div.arrow { min-width: 0; padding: 0;}
+#telefono .mensajes div.arrow:before {content: ""; display: inline-block; vertical-align: middle; width: 0; height: 0; margin-top: -7px; }
+#telefono .mensajes div.arrow-left:before { margin-right: -3px; border-bottom: 10px solid transparent; border-right: 10px solid #66a031; }
+#telefono .mensajes div.arrow-right:before { margin-left: -3px; border-bottom: 10px solid transparent; border-left: 10px solid #fff; }
+#telefono > .numero { position: absolute; top: 63px; left: 43px; height: 23px; color: #fff; font-size: 12px;}
+#telefono > .text { position: absolute; top: 385px; left: 50px; height: 23px; width: 151px; color: #808080; padding-left: 7px; border: 0;}
+#telefono > .enviar {position: absolute; top: 384px; left: 210px; width: 24px; cursor: pointer;}
+#telefono > .enviar:active {right: 35px; bottom: 150px;}
+.left {float: left;}
+.right {float: right;}
+br.clear {clear: both;}
+

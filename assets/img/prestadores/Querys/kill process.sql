@@ -1,0 +1,8 @@
+show processlist;
+
+SELECT GROUP_CONCAT(CONCAT('KILL ',Id,';') SEPARATOR ' ')
+FROM information_schema.processlist WHERE User='cetepcl' and Command='Sleep';
+
+COPIAR Y PERGAR RESULTADO...
+
+KILL 1783048; KILL 1816582; KILL 1782421; KILL 1782414; KILL 1816566; KILL 1778476; KILL 1805833;

@@ -1,0 +1,1 @@
+SELECT * FROM cetepcl_agenda.usuario_ciudad where idusuario=515;

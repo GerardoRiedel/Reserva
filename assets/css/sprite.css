@@ -1,0 +1,304 @@
+
+.horas{
+	width: 390px;
+    height: 230px;
+    background-image: url(../img/botones.png);
+    background-position: -10px -11px;
+    
+    zoom:0.5;
+}
+
+.horas:hover{
+	background-position: -10px -1191px;
+	opacity: 0.8;
+}
+
+.alertas{
+	width: 390px;
+    height: 230px;
+    background-image: url(../img/botones.png);
+    background-position: -10px -291px;
+    zoom:0.5;
+    clear: both;
+}
+
+.alertas:hover{
+	background-position: -10px -1471px;
+	opacity: 0.8;
+}
+
+.cesfam{
+	width: 390px;
+    height: 230px;
+    background-image: url(../img/botones.png);
+    background-position: -10px -561px;
+    zoom:0.5;
+}
+
+.cesfam:hover{
+	background-position: -10px -1741px;
+}
+
+.mensajes{
+	width: 390px;
+    height: 230px;
+    background-image: url(../img/botones.png);
+    background-position: -10px -821px;
+    zoom:0.5;
+}
+
+.mensajes:hover{
+	background-position: -10px -2001px;
+	opacity: 0.8;
+}
+
+.verde{
+	width: 1260px;
+    height: 240px;
+    background-image: url(../img/botones.png);
+    background-position: -530px -11px;
+    zoom:0.5;
+    float: left;
+}
+
+.azul{
+	width: 1260px;
+    height: 240px;
+    background-image: url(../img/botones.png);
+    background-position: -530px -371px;
+    zoom:0.5;
+}
+
+.naranjo{
+	width: 1260px;
+    height: 240px;
+    background-image: url(../img/botones.png);
+    background-position: -530px -701px;
+    zoom:0.5;
+}
+
+.rojo{
+	width: 1260px;
+    height: 240px;
+    background-image: url(../img/botones.png);
+    background-position: -530px -1041px;
+    zoom:0.5;
+}
+
+.puntos{
+	width: 210px;
+    height: 50px;
+    background-image: url(../img/botones.png);
+    background-position: -680px -1411px;
+    zoom:0.5;
+}
+
+.flechas{
+	width: 250px;
+    height: 80px;
+    background-image: url(../img/botones.png);
+    background-position: -680px -1591px;
+    zoom:0.5;
+}
+
+.redsoc{
+	width: 520px;
+    height: 190px;
+    background-image: url(../img/botones.png);
+    background-position: -570px -1871px;
+    zoom:0.5;
+}
+
+.redsoc:hover{
+	background-position: -570px -2141px;
+	opacity: 0.8;
+}
+
+.face{
+	width: 60px;
+    height: 100px;
+    background-image: url(../img/botones.png);
+    background-position: -1240px -1381px;
+    zoom:0.5;
+}
+
+.twitter{
+	width: 80px;
+    height: 70px;
+    background-image: url(../img/botones.png);
+    background-position: -1230px -1561px;
+    zoom:0.5;
+}
+
+.rss{
+	width: 90px;
+    height: 90px;
+    background-image: url(../img/botones.png);
+    background-position: -1220px -1721px;
+    zoom:0.5;
+}
+
+.projo{
+	width: 100px;
+    height: 110px;
+    background-image: url(../img/botones.png);
+    background-position: -1610px -1380px;
+    zoom:0.5;
+}
+
+.pazul{
+	width: 100px;
+    height: 110px;
+    background-image: url(../img/botones.png);
+    background-position: -1610px -1540px;
+    zoom:0.5;
+}
+
+.pverde{
+	width: 100px;
+    height: 110px;
+    background-image: url(../img/botones.png);
+    background-position: -1610px -1720px;
+    zoom:0.5;
+}
+
+.Sunny, .Mostly-Sunny, .Clear , .Mostly-Clear{
+	width: 280px;
+    height: 270px;
+    background-image: url(../img/tiempo.png);
+    background-position: -390px -220px;
+    zoom:0.5;
+}
+
+.Scattered-Showers{
+	width: 280px;
+    height: 280px;
+    background-image: url(../img/tiempo.png);
+    background-position: -810px -200px;
+    zoom:0.5;
+}
+
+.Cloudy{
+	width: 300px;
+    height: 190px;
+    background-image: url(../img/tiempo.png);
+    background-position: -1240px -240px;
+    zoom:0.5;
+}
+
+.Partly-Cloudy{
+	width: 320px;
+    height: 240px;
+    background-image: url(../img/tiempo.png);
+    background-position: -1670px -200px;
+    zoom:0.5;
+   
+}
+
+.Rain, .Showers{
+	width: 300px;
+    height: 260px;
+    background-image: url(../img/tiempo.png);
+    background-position: -380px -580px;
+    zoom:0.5;
+}
+
+.nubladotrueno{
+	width: 300px;
+    height: 270px;
+    background-image: url(../img/tiempo.png);
+    background-position: -820px -590px;
+    zoom:0.5;
+}
+
+.Mostly-Cloudy{
+	width: 310px;
+    height: 230px;
+    background-image: url(../img/tiempo.png);
+    background-position: -1230px -580px;
+    zoom:0.5;
+}
+
+.cubiertoestrellado{
+	width: 320px;
+    height: 300px;
+    background-image: url(../img/tiempo.png);
+    background-position: -1670px -510px;
+    zoom:0.5;
+}
+
+.lluviosotrueno{
+	width: 300px;
+    height: 270px;
+    background-image: url(../img/tiempo.png);
+    background-position: -390px -960px;
+    zoom:0.5;
+}
+
+.Snow{
+	width: 300px;
+    height: 280px;
+    background-image: url(../img/tiempo.png);
+    background-position: -830px -960px;
+    zoom:0.5;
+}
+
+.nevadocubierto{
+	width: 300px;
+    height: 310px;
+    background-image: url(../img/tiempo.png);
+    background-position: -1240px -940px;
+    zoom:0.5;
+}
+
+.arcoiris{
+	width: 430px;
+    height: 180px;
+    background-image: url(../img/tiempo.png);
+    background-position: -1620px -1000px;
+    zoom:0.5;
+}
+
+.alta{
+	width: 130px;
+    height: 240px;
+    background-image: url(../img/tiempo.png);
+    background-position: -400px -1350px;
+    zoom:0.5;
+}
+
+.baja{
+	width: 130px;
+    height: 240px;
+    background-image: url(../img/tiempo.png);
+    background-position: -550px -1350px;
+    zoom:0.5;
+}
+
+.paraguas{
+	width: 330px;
+    height: 260px;
+    background-image: url(../img/tiempo.png);
+    background-position: -820px -1340px;
+    zoom:0.5;
+}
+
+.Wind{
+	width: 280px;
+    height: 260px;
+    background-image: url(../img/tiempo.png);
+    background-position: -1320px -1340px;
+    zoom:0.5;
+}
+
+.remolino{
+	width: 290px;
+    height: 290px;
+    background-image: url(../img/tiempo.png);
+    background-position: -1700px -1330px;
+    zoom:0.5;
+}
+
+
+
+

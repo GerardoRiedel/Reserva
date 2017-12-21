@@ -1,0 +1,818 @@
+[04-Oct-2016 13:20:04 UTC] PHP Fatal error:  Can't use method return value in write context in /home/cetepcl/public_html/qa/code/application/controllers/login.php on line 156
+[04-Oct-2016 13:39:01 UTC] PHP Fatal error:  Class 'LogsInterface' not found in /home/cetepcl/public_html/qa/code/application/controllers/login.php on line 134
+[04-Oct-2016 13:39:09 UTC] PHP Fatal error:  Class 'LogsInterface' not found in /home/cetepcl/public_html/qa/code/application/controllers/login.php on line 134
+[04-Oct-2016 13:39:21 UTC] PHP Fatal error:  Class 'LogsInterface' not found in /home/cetepcl/public_html/qa/code/application/controllers/login.php on line 134
+[04-Oct-2016 13:40:04 UTC] PHP Fatal error:  Can't use method return value in write context in /home/cetepcl/public_html/qa/code/application/controllers/admision/ingresos.php on line 127
+[04-Oct-2016 13:40:13 UTC] PHP Fatal error:  Can't use method return value in write context in /home/cetepcl/public_html/qa/code/application/controllers/admision/ingresos.php on line 127
+[04-Oct-2016 13:41:59 UTC] PHP Fatal error:  Can't use method return value in write context in /home/cetepcl/public_html/qa/code/application/controllers/admision/ingresos.php on line 263
+[04-Oct-2016 13:44:39 UTC] PHP Fatal error:  Can't use method return value in write context in /home/cetepcl/public_html/qa/code/application/views/panel/layout/head_admision.php on line 190
+[04-Oct-2016 13:46:59 UTC] PHP Fatal error:  Can't use method return value in write context in /home/cetepcl/public_html/qa/code/application/views/panel/layout/left_admision.php on line 165
+[04-Oct-2016 13:47:46 UTC] PHP Fatal error:  Can't use method return value in write context in /home/cetepcl/public_html/qa/code/application/views/panel/layout/left_admision.php on line 165
+[04-Oct-2016 13:47:57 UTC] PHP Fatal error:  Can't use method return value in write context in /home/cetepcl/public_html/qa/code/application/views/panel/layout/left_admision.php on line 200
+[04-Oct-2016 13:48:25 UTC] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in /home/cetepcl/public_html/qa/code/application/views/panel/admision/ingresos/nuevo_ingreso.php on line 127
+[04-Oct-2016 13:48:47 UTC] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in /home/cetepcl/public_html/qa/code/application/views/panel/admision/ingresos/nuevo_ingreso.php on line 127
+[04-Oct-2016 13:48:50 UTC] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in /home/cetepcl/public_html/qa/code/application/views/panel/admision/ingresos/nuevo_ingreso.php on line 127
+[04-Oct-2016 13:48:57 UTC] PHP Fatal error:  Can't use method return value in write context in /home/cetepcl/public_html/qa/code/application/views/panel/layout/left_admision.php on line 200
+[04-Oct-2016 13:49:13 UTC] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in /home/cetepcl/public_html/qa/code/application/views/panel/admision/ingresos/nuevo_ingreso.php on line 127
+[04-Oct-2016 13:51:09 UTC] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in /home/cetepcl/public_html/qa/code/application/views/panel/admision/ingresos/nuevo_ingreso.php on line 127
+[04-Oct-2016 15:01:11 UTC] PHP Fatal error:  Class 'LogsInterface' not found in /home/cetepcl/public_html/qa/code/application/controllers/login.php on line 134
+[04-Oct-2016 15:01:18 UTC] PHP Fatal error:  Class 'LogsInterface' not found in /home/cetepcl/public_html/qa/code/application/controllers/login.php on line 134
+[04-Oct-2016 15:01:21 UTC] PHP Fatal error:  Class 'LogsInterface' not found in /home/cetepcl/public_html/qa/code/application/controllers/login.php on line 134
+[04-Oct-2016 15:01:33 UTC] PHP Fatal error:  Class 'LogsInterface' not found in /home/cetepcl/public_html/qa/code/application/controllers/login.php on line 134
+[04-Oct-2016 16:24:51 UTC] PHP Fatal error:  Class 'REST_Controller' not found in /home/cetepcl/public_html/qa/mirandes/application/controllers/api/ingresos.php on line 10
+[04-Oct-2016 16:29:19 UTC] PHP Fatal error:  Call to undefined method Ingresos::response() in /home/cetepcl/public_html/qa/mirandes/application/controllers/api/ingresos.php on line 42
+[04-Oct-2016 16:30:13 UTC] PHP Fatal error:  Call to undefined method Ingresos::response() in /home/cetepcl/public_html/qa/mirandes/application/controllers/api/ingresos.php on line 42
+[04-Oct-2016 16:30:39 UTC] PHP Fatal error:  Call to undefined method Ingresos::response() in /home/cetepcl/public_html/qa/mirandes/application/controllers/api/ingresos.php on line 42
+[07-Oct-2016 20:21:11 UTC] PHP Fatal error:  Can't use method return value in write context in /home/cetepcl/public_html/qa/mirandes/application/controllers/admision/devoluciones.php on line 77
+[07-Oct-2016 20:21:41 UTC] PHP Fatal error:  Can't use method return value in write context in /home/cetepcl/public_html/qa/mirandes/application/controllers/admision/devoluciones.php on line 77
+[07-Oct-2016 20:21:45 UTC] PHP Fatal error:  Can't use method return value in write context in /home/cetepcl/public_html/qa/mirandes/application/controllers/admision/devoluciones.php on line 77
+[07-Oct-2016 20:22:05 UTC] PHP Fatal error:  Can't use method return value in write context in /home/cetepcl/public_html/qa/mirandes/application/controllers/admision/devoluciones.php on line 77
+[07-Oct-2016 20:23:24 UTC] PHP Fatal error:  Can't use method return value in write context in /home/cetepcl/public_html/qa/mirandes/application/controllers/admision/devoluciones.php on line 79
+[07-Oct-2016 20:25:00 UTC] PHP Fatal error:  Can't use method return value in write context in /home/cetepcl/public_html/qa/mirandes/application/controllers/admision/devoluciones.php on line 96
+[21-Oct-2016 15:06:52 UTC] PHP Fatal error:  Can't use method return value in write context in /home/cetepcl/public_html/qa/mirandes/application/controllers/login.php on line 116
+[24-Oct-2016 11:35:48 America/Santiago] PHP Fatal error:  Call to undefined function existe() in /home/cetepcl/public_html/qa/mirandes/application/models/pacientes_model.php on line 101
+[25-Oct-2016 08:46:35 America/Santiago] PHP Fatal error:  Class 'Bancos_model' not found in /home/cetepcl/public_html/qa/mirandes/system/core/Loader.php on line 304
+[25-Oct-2016 08:46:38 America/Santiago] PHP Fatal error:  Class 'Comunas_model' not found in /home/cetepcl/public_html/qa/mirandes/system/core/Loader.php on line 304
+[25-Oct-2016 10:35:29 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (08-01-180) at position 8 (0): Unexpected character' in /home/cetepcl/public_html/qa/mirandes/application/controllers/admision/ingresos.php:64
+Stack trace:
+#0 /home/cetepcl/public_html/qa/mirandes/application/controllers/admision/ingresos.php(64): DateTime->__construct('08-01-180')
+#1 [internal function]: Ingresos->guardarficha()
+#2 /home/cetepcl/public_html/qa/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/qa/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/qa/mirandes/application/controllers/admision/ingresos.php on line 64
+[26-Oct-2016 17:05:29 America/Santiago] PHP Fatal error:  Call to a member function dameLicenciasPorVencer() on a non-object in /home/cetepcl/public_html/qa/mirandes/application/controllers/clinica/ingresos.php on line 101
+[26-Oct-2016 17:11:12 America/Santiago] PHP Fatal error:  Call to a member function dameCtasPorVencer() on a non-object in /home/cetepcl/public_html/qa/mirandes/application/controllers/clinica/ingresos.php on line 158
+[08-Nov-2016 16:46:45 UTC] PHP Fatal error:  Can't use method return value in write context in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 93
+[08-Nov-2016 16:46:49 UTC] PHP Fatal error:  Can't use method return value in write context in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 93
+[08-Nov-2016 16:46:50 UTC] PHP Fatal error:  Can't use method return value in write context in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 93
+[08-Nov-2016 16:46:57 UTC] PHP Fatal error:  Can't use method return value in write context in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 93
+[08-Nov-2016 16:46:58 UTC] PHP Fatal error:  Can't use method return value in write context in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 93
+[09-Nov-2016 09:50:39 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (24/06/1988) at position 0 (2): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php:67
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php(67): DateTime->__construct('24/06/1988')
+#1 [internal function]: Ingresos->guardarficha()
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 67
+[09-Nov-2016 09:59:17 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (24/06/1988) at position 0 (2): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php:67
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php(67): DateTime->__construct('24/06/1988')
+#1 [internal function]: Ingresos->guardarficha()
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 67
+[14-Nov-2016 11:25:50 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (21/10/2001) at position 0 (2): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php:67
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php(67): DateTime->__construct('21/10/2001')
+#1 [internal function]: Ingresos->guardarficha()
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 67
+[16-Nov-2016 09:58:28 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (20/06/2016) at position 0 (2): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php:67
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php(67): DateTime->__construct('20/06/2016')
+#1 [internal function]: Ingresos->guardarficha()
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 67
+[17-Nov-2016 14:35:03 UTC] PHP Fatal error:  Can't use method return value in write context in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 354
+[17-Nov-2016 14:35:16 UTC] PHP Fatal error:  Can't use method return value in write context in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 354
+[17-Nov-2016 14:35:37 UTC] PHP Fatal error:  Can't use method return value in write context in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 354
+[17-Nov-2016 14:38:56 UTC] PHP Fatal error:  Can't use method return value in write context in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 354
+[17-Nov-2016 14:39:13 UTC] PHP Fatal error:  Can't use method return value in write context in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 354
+[23-Nov-2016 09:33:25 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (31/10/1990) at position 0 (3): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php:67
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php(67): DateTime->__construct('31/10/1990')
+#1 [internal function]: Ingresos->guardarficha()
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 67
+[23-Nov-2016 09:33:31 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (31/10/1990) at position 0 (3): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php:67
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php(67): DateTime->__construct('31/10/1990')
+#1 [internal function]: Ingresos->guardarficha()
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 67
+[23-Nov-2016 09:34:04 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (31/10/1990) at position 0 (3): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php:67
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php(67): DateTime->__construct('31/10/1990')
+#1 [internal function]: Ingresos->guardarficha()
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 67
+[23-Nov-2016 10:56:24 America/Santiago] PHP Fatal error:  Call to a member function format() on a non-object in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 69
+[23-Nov-2016 10:56:32 America/Santiago] PHP Fatal error:  Call to a member function format() on a non-object in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 69
+[23-Nov-2016 10:56:35 America/Santiago] PHP Fatal error:  Call to a member function format() on a non-object in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 69
+[23-Nov-2016 11:09:18 America/Santiago] PHP Fatal error:  Call to a member function format() on a non-object in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 69
+[21-Dec-2016 10:21:35 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (02) at position 0 (0): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('02')
+#1 [internal function]: Ingresos->guardar('18669826-6__2_S...', '07', '1994_PILLANTIN%...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[21-Dec-2016 10:22:38 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (02) at position 0 (0): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('02')
+#1 [internal function]: Ingresos->guardar('18669826-6__2_S...', '07', '1994_PILLANTIN%...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[21-Dec-2016 15:27:53 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (06) at position 0 (0): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('06')
+#1 [internal function]: Ingresos->guardar('19900409-3___Am...', '03', '1999_EL%20FALDE...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[21-Dec-2016 15:30:21 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (06) at position 0 (0): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('06')
+#1 [internal function]: Ingresos->guardar('19900409-3___Am...', '03', '1999_EL%20FALDE...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[23-Dec-2016 10:41:49 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (23) at position 0 (2): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('23')
+#1 [internal function]: Ingresos->guardar('11897343-7__2_E...', '101971_IRARRAZA...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[23-Dec-2016 10:43:01 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (23) at position 0 (2): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('23')
+#1 [internal function]: Ingresos->guardar('11897343-7__2_E...', '10197_IRARRAZAB...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[23-Dec-2016 10:44:31 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (23) at position 0 (2): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('23')
+#1 [internal function]: Ingresos->guardar('11897343-7__2_E...', '10197_IRARRAZAB...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[23-Dec-2016 10:46:00 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (23-10197) at position 0 (2): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php:67
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php(67): DateTime->__construct('23-10197')
+#1 [internal function]: Ingresos->guardarficha()
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 67
+[23-Dec-2016 10:46:12 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (23-10197) at position 0 (2): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php:67
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php(67): DateTime->__construct('23-10197')
+#1 [internal function]: Ingresos->guardarficha()
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 67
+[23-Dec-2016 10:46:32 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (23-10197) at position 0 (2): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php:67
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php(67): DateTime->__construct('23-10197')
+#1 [internal function]: Ingresos->guardarficha()
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 67
+[23-Dec-2016 11:12:47 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (23-10197) at position 0 (2): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php:67
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php(67): DateTime->__construct('23-10197')
+#1 [internal function]: Ingresos->guardarficha()
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 67
+[26-Dec-2016 09:25:36 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (11) at position 0 (1): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('11')
+#1 [internal function]: Ingresos->guardar('6091658-6__1_YA...', '12', '1954_LAS%20VIOL...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[26-Dec-2016 09:34:31 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (11) at position 0 (1): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('11')
+#1 [internal function]: Ingresos->guardar('6091658-6__1_YA...', '12', '1954_LAS%20VIOL...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[26-Dec-2016 09:36:41 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (11) at position 0 (1): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('11')
+#1 [internal function]: Ingresos->guardar('6091658-6__1_YA...', '12', '1954_LAS%20VIOL...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[27-Dec-2016 15:31:44 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (21) at position 0 (2): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('21')
+#1 [internal function]: Ingresos->guardar('18796228-5__3_V...', '06', '1979_MARQUEZ%20...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[27-Dec-2016 15:33:57 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (21) at position 0 (2): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('21')
+#1 [internal function]: Ingresos->guardar('18796228-5__3_V...', '06', '1979_MARQUEZ%20...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[28-Dec-2016 17:11:01 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (16) at position 0 (1): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('16')
+#1 [internal function]: Ingresos->guardar('12355075-7__2_C...', '03', '1973_RAPA%20NUI...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[28-Dec-2016 17:12:27 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (16) at position 0 (1): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('16')
+#1 [internal function]: Ingresos->guardar('12355075-7__2_C...', '03', '1973_RAPA%20NUI...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[29-Dec-2016 08:52:11 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (05) at position 0 (0): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('05')
+#1 [internal function]: Ingresos->guardar('9765336-4___ELS...', '10', '1962_RIO%20BAKE...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[29-Dec-2016 08:53:51 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (05) at position 0 (0): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('05')
+#1 [internal function]: Ingresos->guardar('9765336-4___ELS...', '10', '1962_RIO%20BAKE...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[30-Dec-2016 14:38:34 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (23) at position 0 (2): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('23')
+#1 [internal function]: Ingresos->guardar('24807933-9__1_A...', '061956_CAMINO%2...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[30-Dec-2016 14:38:46 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (23) at position 0 (2): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('23')
+#1 [internal function]: Ingresos->guardar('24807933-9__3_A...', '061956_CAMINO%2...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[30-Dec-2016 14:41:11 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (23) at position 0 (2): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('23')
+#1 [internal function]: Ingresos->guardar('24807933-9__3_A...', '06', '1956_CAMINO%20E...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[04-Jan-2017 10:10:12 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (09) at position 0 (0): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('09')
+#1 [internal function]: Ingresos->guardar('13529965-0__3_T...', '04', '1979_COLCHAGUA%...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[04-Jan-2017 10:13:15 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (09) at position 0 (0): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('09')
+#1 [internal function]: Ingresos->guardar('13529965-0__3_T...', '04', '1979_COLCHAGUA%...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[20-Jan-2017 08:31:18 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (24) at position 0 (2): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('24')
+#1 [internal function]: Ingresos->guardar('18119237-2__2_M...', '04', '1992_RIO%20CRUC...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[20-Jan-2017 08:33:21 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (24) at position 0 (2): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('24')
+#1 [internal function]: Ingresos->guardar('18119237-2__2_M...', '04', '1992_RIO%20CRUC...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[23-Jan-2017 15:09:16 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (16) at position 0 (1): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('16')
+#1 [internal function]: Ingresos->guardar('17407556-5__1_N...', '06', '1990_REINA%20VI...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[23-Jan-2017 15:11:17 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (16) at position 0 (1): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('16')
+#1 [internal function]: Ingresos->guardar('17407556-5__1_N...', '06', '1990_REINA%20VI...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[03-Feb-2017 15:34:09 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (11) at position 0 (1): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('11')
+#1 [internal function]: Ingresos->guardar('18487528-4__3_J...', '07', '1993_CARMEN%20D...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[03-Feb-2017 15:36:01 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (11) at position 0 (1): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('11')
+#1 [internal function]: Ingresos->guardar('18487528-4__3_J...', '07', '1993_CARMEN%20D...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[06-Feb-2017 12:39:34 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (4) at position 0 (4): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('4')
+#1 [internal function]: Ingresos->guardar('15822364-3__3_M...', '12', '1984_Lyon%20344...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[06-Feb-2017 12:39:54 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (4) at position 0 (4): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('4')
+#1 [internal function]: Ingresos->guardar('15822364-3__3_M...', '12', '1984_Lyon%20344...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[06-Feb-2017 12:40:42 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (4) at position 0 (4): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('4')
+#1 [internal function]: Ingresos->guardar('15822364-3__3_M...', '12', '198_Lyon%203443...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[06-Feb-2017 12:41:38 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (4-12-198) at position 7 (8): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php:67
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php(67): DateTime->__construct('4-12-198')
+#1 [internal function]: Ingresos->guardarficha()
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 67
+[06-Feb-2017 12:41:45 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (4-12-198) at position 7 (8): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php:67
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php(67): DateTime->__construct('4-12-198')
+#1 [internal function]: Ingresos->guardarficha()
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 67
+[06-Feb-2017 12:42:13 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (4-12-198) at position 7 (8): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php:67
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php(67): DateTime->__construct('4-12-198')
+#1 [internal function]: Ingresos->guardarficha()
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 67
+[06-Feb-2017 12:42:16 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (4-12-198) at position 7 (8): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php:67
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php(67): DateTime->__construct('4-12-198')
+#1 [internal function]: Ingresos->guardarficha()
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 67
+[06-Feb-2017 12:42:25 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (4-12-198) at position 7 (8): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php:67
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php(67): DateTime->__construct('4-12-198')
+#1 [internal function]: Ingresos->guardarficha()
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 67
+[06-Feb-2017 12:42:28 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (4-12-198) at position 7 (8): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php:67
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php(67): DateTime->__construct('4-12-198')
+#1 [internal function]: Ingresos->guardarficha()
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 67
+[06-Feb-2017 12:42:48 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (4-12-198) at position 7 (8): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php:67
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php(67): DateTime->__construct('4-12-198')
+#1 [internal function]: Ingresos->guardarficha()
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 67
+[06-Feb-2017 12:42:58 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (4-12-198) at position 7 (8): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php:67
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php(67): DateTime->__construct('4-12-198')
+#1 [internal function]: Ingresos->guardarficha()
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 67
+[06-Feb-2017 12:43:26 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (4-12-198) at position 7 (8): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php:67
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php(67): DateTime->__construct('4-12-198')
+#1 [internal function]: Ingresos->guardarficha()
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/admision/ingresos.php on line 67
+[06-Feb-2017 15:44:59 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (20) at position 0 (2): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('20')
+#1 [internal function]: Ingresos->guardar('17286852-5__3_P...', '03', '1990_AV.%20SUEC...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[06-Feb-2017 15:46:33 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (20) at position 0 (2): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('20')
+#1 [internal function]: Ingresos->guardar('17286852-5__3_P...', '03', '1990_AV.%20SUEC...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[07-Feb-2017 10:51:43 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (23) at position 0 (2): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('23')
+#1 [internal function]: Ingresos->guardar('14011723-4__2_J...', '10', '1981_NAPOLES%20...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[07-Feb-2017 10:54:13 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (23) at position 0 (2): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:106
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(106): DateTime->__construct('23')
+#1 [internal function]: Ingresos->guardar('14011723-4__2_J...', '10', '1981_NAPOLES%20...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 106
+[09-Feb-2017 14:46:37 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (16) at position 0 (1): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:110
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(110): DateTime->__construct('16')
+#1 [internal function]: Ingresos->guardar('10437634-7__2_J...', '04', '1967_CARLOS%20D...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 110
+[09-Feb-2017 14:48:37 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (16) at position 0 (1): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:110
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(110): DateTime->__construct('16')
+#1 [internal function]: Ingresos->guardar('10437634-7__2_J...', '04', '1967_CARLOS%20D...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 110
+[13-Feb-2017 11:17:02 America/Santiago] PHP Parse error:  syntax error, unexpected T_IS_IDENTICAL, expecting ')' in /home/cetepcl/public_html/mirandes/application/views/panel/admision/devoluciones/devolucion_ingreso.php on line 205
+[13-Feb-2017 11:18:16 America/Santiago] PHP Parse error:  syntax error, unexpected T_IS_IDENTICAL, expecting ')' in /home/cetepcl/public_html/mirandes/application/views/panel/admision/devoluciones/devolucion_ingreso.php on line 205
+[13-Feb-2017 11:20:09 America/Santiago] PHP Parse error:  syntax error, unexpected T_IS_IDENTICAL, expecting ')' in /home/cetepcl/public_html/mirandes/application/views/panel/admision/devoluciones/devolucion_ingreso.php on line 206
+[13-Feb-2017 11:20:11 America/Santiago] PHP Parse error:  syntax error, unexpected T_IS_IDENTICAL, expecting ')' in /home/cetepcl/public_html/mirandes/application/views/panel/admision/devoluciones/devolucion_ingreso.php on line 206
+[13-Feb-2017 11:20:12 America/Santiago] PHP Parse error:  syntax error, unexpected T_IS_IDENTICAL, expecting ')' in /home/cetepcl/public_html/mirandes/application/views/panel/admision/devoluciones/devolucion_ingreso.php on line 206
+[16-Feb-2017 10:32:18 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (18-051985) at position 0 (1): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:114
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(114): DateTime->__construct('18-051985')
+#1 [internal function]: Ingresos->guardar('16091853-5__2_S...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 114
+[16-Feb-2017 10:32:33 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (18-051985) at position 0 (1): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:114
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(114): DateTime->__construct('18-051985')
+#1 [internal function]: Ingresos->guardar('16091853-5__2_S...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 114
+[16-Feb-2017 10:34:02 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (18-051985) at position 0 (1): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:114
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(114): DateTime->__construct('18-051985')
+#1 [internal function]: Ingresos->guardar('16091853-5__2_S...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 114
+[16-Feb-2017 10:34:02 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (18-051985) at position 0 (1): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:114
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(114): DateTime->__construct('18-051985')
+#1 [internal function]: Ingresos->guardar('16091853-5__2_S...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 114
+[16-Feb-2017 11:13:27 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (22) at position 0 (2): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:114
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(114): DateTime->__construct('22')
+#1 [internal function]: Ingresos->guardar('7638825-3__3_Sy...', '11', '1952_TERRA%20VI...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 114
+[01-Mar-2017 12:49:19 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (03) at position 0 (0): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:114
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(114): DateTime->__construct('03')
+#1 [internal function]: Ingresos->guardar('19081141-7__3_F...', '08', '1995_AVENIDA%20...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 114
+[01-Mar-2017 12:51:18 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (03) at position 0 (0): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:114
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(114): DateTime->__construct('03')
+#1 [internal function]: Ingresos->guardar('19081141-7__3_F...', '08', '1995_AVENIDA%20...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 114
+[01-Mar-2017 15:00:48 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (15) at position 0 (1): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:114
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(114): DateTime->__construct('15')
+#1 [internal function]: Ingresos->guardar('13949959-k__3_G...', '05', '1980_Pasaje%20S...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 114
+[01-Mar-2017 15:02:43 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (15) at position 0 (1): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:114
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(114): DateTime->__construct('15')
+#1 [internal function]: Ingresos->guardar('13949959-k__3_G...', '05', '1980_Pasaje%20S...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 114
+[17-Mar-2017 15:22:12 America/Santiago] PHP Fatal error:  Call to a member function dameHdFicha() on a non-object in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresosHD.php on line 175
+[17-Mar-2017 15:22:12 America/Santiago] PHP Fatal error:  Call to a member function dameHdFicha() on a non-object in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresosHD.php on line 175
+[27-Mar-2017 10:12:09 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (17-08-151) at position 8 (1): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:119
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(119): DateTime->__construct('17-08-151')
+#1 [internal function]: Ingresos->guardar('5969630-0__2_Ga...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 119
+[27-Mar-2017 10:17:29 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (17-08-151) at position 8 (1): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:119
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(119): DateTime->__construct('17-08-151')
+#1 [internal function]: Ingresos->guardar('5969630-0__2_Ga...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 119
+[03-Apr-2017 10:06:35 America/Santiago] PHP Fatal error:  Call to a member function dameIdFichaHoy() on a non-object in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresosHD.php on line 178
+[03-Apr-2017 10:06:35 America/Santiago] PHP Fatal error:  Call to a member function dameIdFichaHoy() on a non-object in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresosHD.php on line 178
+[03-Apr-2017 10:20:31 America/Santiago] PHP Fatal error:  Call to a member function dameIdFichaHoy() on a non-object in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresosHD.php on line 178
+[03-Apr-2017 10:20:31 America/Santiago] PHP Fatal error:  Call to a member function dameIdFichaHoy() on a non-object in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresosHD.php on line 178
+[04-Apr-2017 16:28:02 America/Santiago] PHP Fatal error:  Call to a member function dameIdFichaHoy() on a non-object in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresosHD.php on line 178
+[04-Apr-2017 16:28:29 America/Santiago] PHP Fatal error:  Call to a member function dameIdFichaHoy() on a non-object in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresosHD.php on line 178
+[04-Apr-2017 16:29:13 America/Santiago] PHP Fatal error:  Call to a member function dameIdFichaHoy() on a non-object in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresosHD.php on line 178
+[04-Apr-2017 16:49:54 America/Santiago] PHP Fatal error:  Call to a member function dameIdFichaHoy() on a non-object in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresosHD.php on line 178
+[04-Apr-2017 16:54:53 America/Santiago] PHP Fatal error:  Call to a member function dameIdFichaHoy() on a non-object in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresosHD.php on line 178
+[04-Apr-2017 16:55:20 America/Santiago] PHP Fatal error:  Call to a member function dameIdFichaHoy() on a non-object in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresosHD.php on line 178
+[04-Apr-2017 17:02:02 America/Santiago] PHP Fatal error:  Call to a member function dameIdFichaHoy() on a non-object in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresosHD.php on line 178
+[04-Apr-2017 17:02:08 America/Santiago] PHP Fatal error:  Call to a member function dameIdFichaHoy() on a non-object in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresosHD.php on line 178
+[04-Apr-2017 17:02:29 America/Santiago] PHP Fatal error:  Call to a member function dameIdFichaHoy() on a non-object in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresosHD.php on line 178
+[04-Apr-2017 17:05:46 America/Santiago] PHP Fatal error:  Call to a member function dameIdFichaHoy() on a non-object in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresosHD.php on line 178
+[04-Apr-2017 17:24:30 America/Santiago] PHP Fatal error:  Call to a member function dameIdFichaHoy() on a non-object in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresosHD.php on line 178
+[11-Apr-2017 09:01:04 America/Santiago] PHP Fatal error:  Call to a member function dameIdFichaHoy() on a non-object in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresosHD.php on line 178
+[11-Apr-2017 09:03:00 America/Santiago] PHP Fatal error:  Call to a member function dameIdFichaHoy() on a non-object in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresosHD.php on line 178
+[11-Apr-2017 09:04:17 America/Santiago] PHP Fatal error:  Call to a member function dameIdFichaHoy() on a non-object in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresosHD.php on line 178
+[11-Apr-2017 09:04:17 America/Santiago] PHP Fatal error:  Call to a member function dameIdFichaHoy() on a non-object in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresosHD.php on line 178
+[11-Apr-2017 09:04:30 America/Santiago] PHP Fatal error:  Call to a member function dameIdFichaHoy() on a non-object in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresosHD.php on line 178
+[11-Apr-2017 09:04:30 America/Santiago] PHP Fatal error:  Call to a member function dameIdFichaHoy() on a non-object in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresosHD.php on line 178
+[11-Apr-2017 09:05:57 America/Santiago] PHP Fatal error:  Call to a member function dameIdFichaHoy() on a non-object in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresosHD.php on line 178
+[12-Apr-2017 14:30:00 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (07) at position 0 (0): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:121
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(121): DateTime->__construct('07')
+#1 [internal function]: Ingresos->guardar('18899170-k__3_A...', '02', '1995_VICENTE%20...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 121
+[12-Apr-2017 14:30:13 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (07) at position 0 (0): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:121
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(121): DateTime->__construct('07')
+#1 [internal function]: Ingresos->guardar('18899170-k__3_A...', '02', '1995_VICENTE%20...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 121
+[12-Apr-2017 14:32:59 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (07) at position 0 (0): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:121
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(121): DateTime->__construct('07')
+#1 [internal function]: Ingresos->guardar('18899170-k__3_A...', '02', '1995_VICENTE%20...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 121
+[17-Apr-2017 13:36:56 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (01) at position 0 (0): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:121
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(121): DateTime->__construct('01')
+#1 [internal function]: Ingresos->guardar('10197844-3__1_C...', '02', '1967_DIRIGENTA%...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 121
+[17-Apr-2017 13:38:54 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (01) at position 0 (0): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:121
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(121): DateTime->__construct('01')
+#1 [internal function]: Ingresos->guardar('10197844-3__1_C...', '02', '1967_DIRIGENTA%...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 121
+[28-Apr-2017 14:15:05 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (29) at position 0 (2): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:121
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(121): DateTime->__construct('29')
+#1 [internal function]: Ingresos->guardar('20999763-0__3_C...', '03', '2002_PASAJE%20E...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 121
+[28-Apr-2017 14:16:12 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (29) at position 0 (2): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:121
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(121): DateTime->__construct('29')
+#1 [internal function]: Ingresos->guardar('20999763-0__3_C...', '03', '2002_PASAJE%20E...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 121
+[05-May-2017 08:40:12 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (20-08-193) at position 8 (3): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:121
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(121): DateTime->__construct('20-08-193')
+#1 [internal function]: Ingresos->guardar('18397221-9_946_...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 121
+[05-May-2017 08:42:22 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (20-08-193) at position 8 (3): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:121
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(121): DateTime->__construct('20-08-193')
+#1 [internal function]: Ingresos->guardar('18397221-9_946_...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 121
+[05-May-2017 13:50:51 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (08) at position 0 (0): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:121
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(121): DateTime->__construct('08')
+#1 [internal function]: Ingresos->guardar('20408274-K__3_S...', '05', '2000_DEL%20RODE...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 121
+[05-May-2017 13:52:08 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (08) at position 0 (0): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:121
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(121): DateTime->__construct('08')
+#1 [internal function]: Ingresos->guardar('20408274-K__3_S...', '05', '2000_DEL%20RODE...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 121
+[11-May-2017 14:10:44 UTC] PHP Fatal error:  Can't use method return value in write context in /home/cetepcl/public_html/mirandes/application/controllers/clinica_enfermeria/ingresos.php on line 477
+[11-May-2017 16:26:11 UTC] PHP Fatal error:  Can't use method return value in write context in /home/cetepcl/public_html/mirandes/application/controllers/clinica_enfermeria/ingresos.php on line 477
+[15-May-2017 15:20:44 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (04) at position 0 (0): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:121
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(121): DateTime->__construct('04')
+#1 [internal function]: Ingresos->guardar('20947521-9__3_C...', '01', '2002_CARVAJAL%2...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 121
+[15-May-2017 15:22:51 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (04) at position 0 (0): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:121
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(121): DateTime->__construct('04')
+#1 [internal function]: Ingresos->guardar('20947521-9__3_C...', '01', '2002_CARVAJAL%2...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 121
+[15-May-2017 15:22:51 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (04) at position 0 (0): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:121
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(121): DateTime->__construct('04')
+#1 [internal function]: Ingresos->guardar('20947521-9__3_C...', '01', '2002_CARVAJAL%2...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 121
+[24-May-2017 16:14:50 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (07) at position 0 (0): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:121
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(121): DateTime->__construct('07')
+#1 [internal function]: Ingresos->guardar('20038950-6__2_C...', '01', '1999_CEIBO%2025...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 121
+[24-May-2017 16:17:25 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (07) at position 0 (0): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:121
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(121): DateTime->__construct('07')
+#1 [internal function]: Ingresos->guardar('20038950-6__2_C...', '01', '1999_CEIBO%2025...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 121
+[24-May-2017 16:21:00 America/Santiago] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() [<a href='datetime.--construct'>datetime.--construct</a>]: Failed to parse time string (07) at position 0 (0): Unexpected character' in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php:121
+Stack trace:
+#0 /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php(121): DateTime->__construct('07')
+#1 [internal function]: Ingresos->guardar('20038950-6__2_C...', '01', '1999_CEIBO%2025...')
+#2 /home/cetepcl/public_html/mirandes/system/core/CodeIgniter.php(360): call_user_func_array(Array, Array)
+#3 /home/cetepcl/public_html/mirandes/index.php(202): require_once('/home/cetepcl/p...')
+#4 {main}
+  thrown in /home/cetepcl/public_html/mirandes/application/controllers/api/ingresos.php on line 121
+[27-Jun-2017 16:45:13 America/Santiago] PHP Parse error:  syntax error, unexpected '<' in /home/cetepcl/public_html/calidad/application/helpers/layout_helper.php on line 52
+[29-Jun-2017 16:42:56 America/Santiago] PHP Fatal error:  Can't use method return value in write context in /home/cetepcl/public_html/calidad/application/views/panel/modals/guardar_exitoso.php on line 24
+[29-Jun-2017 16:55:02 America/Santiago] PHP Fatal error:  Can't use method return value in write context in /home/cetepcl/public_html/calidad/application/views/panel/modals/guardar_exitoso.php on line 24
+[29-Jun-2017 16:55:45 America/Santiago] PHP Fatal error:  Can't use method return value in write context in /home/cetepcl/public_html/calidad/application/views/panel/modals/guardar_exitoso.php on line 24
+[29-Jun-2017 16:56:16 America/Santiago] PHP Fatal error:  Can't use method return value in write context in /home/cetepcl/public_html/calidad/application/views/panel/modals/guardar_exitoso.php on line 24
+[29-Jun-2017 16:57:50 America/Santiago] PHP Fatal error:  Can't use method return value in write context in /home/cetepcl/public_html/calidad/application/views/panel/modals/guardar_exitoso.php on line 24
+[24-Jul-2017 09:00:34 America/Santiago] PHP Fatal error:  Using $this when not in object context in /home/cetepcl/public_html/calidad/application/helpers/layout_helper.php on line 86
+[24-Jul-2017 09:03:39 America/Santiago] PHP Fatal error:  Using $this when not in object context in /home/cetepcl/public_html/calidad/application/helpers/layout_helper.php on line 87
+[24-Jul-2017 09:09:16 America/Santiago] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 499 bytes) in /home/cetepcl/public_html/calidad/system/libraries/Session.php on line 724
+[24-Jul-2017 10:30:28 America/Santiago] PHP Fatal error:  Using $this when not in object context in /home/cetepcl/public_html/calidad/application/helpers/layout_helper.php on line 39
+[24-Jul-2017 11:02:32 America/Santiago] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 523800 bytes) in /home/cetepcl/public_html/calidad/application/config/database.php on line 42
+[24-Jul-2017 11:02:53 America/Santiago] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 523800 bytes) in /home/cetepcl/public_html/calidad/application/config/database.php on line 42
+[24-Jul-2017 11:03:19 America/Santiago] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 523800 bytes) in /home/cetepcl/public_html/calidad/application/config/database.php on line 42
+[24-Jul-2017 11:03:33 America/Santiago] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 523800 bytes) in /home/cetepcl/public_html/calidad/application/config/database.php on line 42
+[24-Jul-2017 11:03:53 America/Santiago] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 523800 bytes) in /home/cetepcl/public_html/calidad/application/config/database.php on line 42
+[24-Jul-2017 11:04:18 America/Santiago] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 523800 bytes) in /home/cetepcl/public_html/calidad/application/config/database.php on line 42
+[24-Jul-2017 11:04:50 America/Santiago] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 523800 bytes) in /home/cetepcl/public_html/calidad/application/config/database.php on line 42
+[24-Jul-2017 11:05:48 America/Santiago] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 523800 bytes) in /home/cetepcl/public_html/calidad/application/config/database.php on line 42
+[24-Jul-2017 11:05:51 America/Santiago] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 523800 bytes) in /home/cetepcl/public_html/calidad/application/config/database.php on line 42
+[24-Jul-2017 11:06:24 America/Santiago] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 523800 bytes) in /home/cetepcl/public_html/calidad/application/config/database.php on line 42
+[24-Jul-2017 11:07:08 America/Santiago] PHP Fatal error:  Using $this when not in object context in /home/cetepcl/public_html/calidad/application/helpers/layout_helper.php on line 39
+[24-Jul-2017 11:07:14 America/Santiago] PHP Fatal error:  Using $this when not in object context in /home/cetepcl/public_html/calidad/application/helpers/layout_helper.php on line 39
+[24-Jul-2017 11:08:47 America/Santiago] PHP Fatal error:  Using $this when not in object context in /home/cetepcl/public_html/calidad/application/helpers/layout_helper.php on line 39
+[24-Jul-2017 11:14:56 America/Santiago] PHP Fatal error:  Class 'Layout_Helper' not found in /home/cetepcl/public_html/calidad/application/controllers/calidad/sugerencia.php on line 26
+[24-Jul-2017 11:17:04 America/Santiago] PHP Parse error:  syntax error, unexpected ';' in /home/cetepcl/public_html/calidad/application/helpers/layout_helper.php on line 39
+[24-Jul-2017 11:23:17 America/Santiago] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 523800 bytes) in /home/cetepcl/public_html/calidad/application/config/database.php on line 42
+[24-Jul-2017 11:23:38 America/Santiago] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 523800 bytes) in /home/cetepcl/public_html/calidad/application/config/database.php on line 42
+[24-Jul-2017 12:07:51 America/Santiago] PHP Fatal error:  Call to undefined function base_url() in /home/cetepcl/public_html/calidad/application/views/panel/layout/head.php on line 9
+[24-Jul-2017 12:08:48 America/Santiago] PHP Fatal error:  Call to undefined function base_url() in /home/cetepcl/public_html/calidad/application/views/panel/layout/head.php on line 9
+[24-Jul-2017 12:09:00 America/Santiago] PHP Fatal error:  Call to undefined function base_url() in /home/cetepcl/public_html/calidad/application/views/panel/layout/head.php on line 9
+[24-Jul-2017 12:09:39 America/Santiago] PHP Fatal error:  Call to undefined function base_url() in /home/cetepcl/public_html/calidad/application/views/panel/layout/head.php on line 9
+[24-Jul-2017 12:10:06 America/Santiago] PHP Fatal error:  Call to undefined function base_url() in /home/cetepcl/public_html/calidad/application/views/panel/layout/head.php on line 9
+[24-Jul-2017 12:13:23 America/Santiago] PHP Fatal error:  Call to undefined function base_url() in /home/cetepcl/public_html/calidad/application/views/panel/layout/head.php on line 9
+[24-Jul-2017 12:16:10 America/Santiago] PHP Fatal error:  Call to undefined function base_url() in /home/cetepcl/public_html/calidad/application/views/panel/layout/head.php on line 9
+[24-Jul-2017 12:17:54 America/Santiago] PHP Fatal error:  Call to undefined function base_url() in /home/cetepcl/public_html/calidad/application/views/panel/layout/head.php on line 9
+[24-Jul-2017 12:18:04 America/Santiago] PHP Fatal error:  Call to undefined function base_url() in /home/cetepcl/public_html/calidad/application/views/panel/layout/head.php on line 9
+[24-Jul-2017 12:18:05 America/Santiago] PHP Fatal error:  Call to undefined function base_url() in /home/cetepcl/public_html/calidad/application/views/panel/layout/head.php on line 9
+[24-Jul-2017 12:18:05 America/Santiago] PHP Fatal error:  Call to undefined function base_url() in /home/cetepcl/public_html/calidad/application/views/panel/layout/head.php on line 9
+[24-Jul-2017 12:18:11 America/Santiago] PHP Fatal error:  Call to undefined function base_url() in /home/cetepcl/public_html/calidad/application/views/panel/layout/head.php on line 9
+[24-Jul-2017 12:18:51 America/Santiago] PHP Fatal error:  Call to undefined function base_url() in /home/cetepcl/public_html/calidad/application/views/panel/layout/head.php on line 9
+[24-Jul-2017 12:21:20 America/Santiago] PHP Fatal error:  Call to undefined function base_url() in /home/cetepcl/public_html/calidad/application/views/panel/layout/head.php on line 9
+[24-Jul-2017 12:21:23 America/Santiago] PHP Fatal error:  Call to undefined function base_url() in /home/cetepcl/public_html/calidad/application/views/panel/layout/head.php on line 9
+[24-Jul-2017 12:21:50 America/Santiago] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 523800 bytes) in /home/cetepcl/public_html/calidad/system/database/drivers/mysql/mysql_driver.php on line 1308
+[24-Jul-2017 12:22:16 America/Santiago] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 523800 bytes) in /home/cetepcl/public_html/calidad/system/database/drivers/mysql/mysql_driver.php on line 1308
+[24-Jul-2017 12:56:42 America/Santiago] PHP Fatal error:  Call to undefined function base_url() in /home/cetepcl/public_html/calidad/application/views/panel/layout/head.php on line 9
+[24-Jul-2017 12:59:44 America/Santiago] PHP Fatal error:  Call to undefined function base_url() in /home/cetepcl/public_html/calidad/application/views/panel/layout/head.php on line 9
+[24-Jul-2017 12:59:45 America/Santiago] PHP Fatal error:  Call to undefined function base_url() in /home/cetepcl/public_html/calidad/application/views/panel/layout/head.php on line 9
+[24-Jul-2017 13:00:12 America/Santiago] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 523800 bytes) in /home/cetepcl/public_html/calidad/system/database/drivers/mysql/mysql_driver.php on line 1308
+[24-Jul-2017 13:24:30 America/Santiago] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 30720 bytes) in /home/cetepcl/public_html/calidad/application/config/database.php on line 71
+[24-Jul-2017 13:24:33 America/Santiago] PHP Fatal error:  Call to undefined function base_url() in /home/cetepcl/public_html/calidad/application/views/panel/layout/head.php on line 9
+[24-Jul-2017 13:24:42 America/Santiago] PHP Fatal error:  Call to undefined function base_url() in /home/cetepcl/public_html/calidad/application/views/panel/layout/head.php on line 9
+[24-Jul-2017 13:24:52 America/Santiago] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 30720 bytes) in /home/cetepcl/public_html/calidad/application/config/database.php on line 71
+[31-Aug-2017 09:48:46 America/Santiago] PHP Fatal error:  Call to a member function userdata() on null in /home/cetepcl/public_html/calidad/application/controllers/calidad/gestion.php on line 482
+[31-Aug-2017 09:50:11 America/Santiago] PHP Fatal error:  Call to a member function userdata() on null in /home/cetepcl/public_html/calidad/application/controllers/calidad/gestion.php on line 482
+[31-Aug-2017 09:50:22 America/Santiago] PHP Fatal error:  Call to a member function userdata() on null in /home/cetepcl/public_html/calidad/application/controllers/calidad/gestion.php on line 482
+[31-Aug-2017 09:50:25 America/Santiago] PHP Fatal error:  Call to a member function userdata() on null in /home/cetepcl/public_html/calidad/application/controllers/calidad/gestion.php on line 482
