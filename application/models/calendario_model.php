@@ -6,72 +6,11 @@ class Calendario_model extends CI_MODEL
     {
         $this->load->database('default');
     }
-     public function dameHoras($ciudad,$especialidad,$fecha='')
+     public function dameHoras($ciudad,$especialidad,$fecha='',$tipoHora)
     {
         $array = $query1 = $query2 = array();
        
-        $prestadores  = $this->db->select('id')
-                        ->from('prestador')
-                        ->where('especialidad',$especialidad)
-                        ->get()
-                        ->result();
-        //die(var_dump($prestadores));
-        
-         IF(!empty($fecha)){
-            $horaInicio = $fecha.' 00:00:00';
-            $horaFin = $fecha.' 23:00:00';
-         }ELSE {
-             $fecha = date('Y-m-d H:i:s',strtotime ( '+1 day' ));
-             $horaInicio = $fecha;
-             $horaFin = date('Y-m-d H:i:s',strtotime ( '+90 day' ));
-         }
-         
-        FOREACH($prestadores as $item){//echo $item->id;
-            
-            $horas  = $this->db->select('hora_prestador.id,hora_prestador.ciudad,hora_prestador.hora,prestador,prestador.nombres,prestador.apellidoPaterno,prestador.apellidoMaterno,prestador.descripcion')
-                            ->from('hora_prestador')
-                            ->join('prestador','prestador.id=hora_prestador.prestador')
-                            ->where('ciudad',$ciudad)
-                            ->where('prestador',$item->id)
-                            ->where('hora >= "'.$horaInicio.'"')
-                            ->where('hora <= "'.$horaFin.'"')
-                            ->get()
-                            ->result();
-          IF(!empty($horas)){$query1 = array_merge($query1,$horas); }
-        }
-        //die(var_dump($query1));
-        FOREACH ($query1 as $item){
-            //echo $item->ciudad.'ciudad'.$item->hora.'hora'.$item->prestador;
-            $hora  = $this->db->select('id,hora,prestador')
-                        ->from('hora')
-                        ->where('ciudad',$item->ciudad)
-                        ->where('hora',$item->hora)
-                        ->where('prestador',$item->prestador)
-                        ->where('paciente is  NOT NULL')
-                        ->get()
-                        ->result();
-           //echo var_dump($hora);
-            IF(empty($hora)){ 
-                $array = '';
-                array_push($query2,array ('id'=>$item->id,'hora'=>$item->hora,'nombres'=>$item->nombres,'apellidoPaterno'=>$item->apellidoPaterno,'apellidoMaterno'=>$item->apellidoMaterno,'descripcion'=>$item->descripcion) ) ;}
-            
-        }
-        //die(var_dump($query2));
-        return  $query2;
-    }
-    
-    
-    public function dameHorasCalendario($ciudad,$especialidad)
-    {
-        $array = $query1 = $query2 = array();
-       
-        $prestadores  = $this->db->select('id')
-                        ->from('prestador')
-                        ->where('especialidad',$especialidad)
-                        ->get()
-                        ->result();
-        //die(var_dump($prestadores));
-        
+     //  die($especialidad);
          IF(!empty($fecha)){
             $horaInicio = $fecha.' 00:00:00';
             $horaFin = $fecha.' 23:00:00';
@@ -82,42 +21,94 @@ class Calendario_model extends CI_MODEL
              
          }
          
-        FOREACH($prestadores as $item){
-            
-            $horas  = $this->db->select('hora_prestador.id,hora_prestador.ciudad,hora_prestador.hora,prestador')
-                            ->from('hora_prestador')
-                            ->join('prestador','prestador.id=hora_prestador.prestador')
-                            ->where('ciudad',$ciudad)
-                            ->where('prestador',$item->id)
-                            ->where('hora >= "'.$horaInicio.'"')
-                            ->where('hora <= "'.$horaFin.'"')
-                            //->order_by('dia','asc')
-                            //->group_by('ano,mes,dia')
+            $horas  = $this->db->select('h.id,h.ciudad,h.hora,h.prestador,h.paciente,prestador.nombres,prestador.apellidoPaterno,prestador.apellidoMaterno,prestador.descripcion')
+                             ->from('hora h')
+                            ->join('prestador','prestador.id=h.prestador','inner')
+                            ->join('prestador_especialidad e','prestador.id=e.idprestador','inner')
+                            ->where('h.ciudad',$ciudad)
+                        //    ->where('h.especialidad',$especialidad)
+                            ->where('e.idespecialidad',$especialidad)
+                            ->where('h.hora >= "'.$horaInicio.'"')
+                            ->where('h.hora <= "'.$horaFin.'"')
+                            ->where('h.paciente is NULL')
+                            ->where('h.idmodalidad',1)
+                            ->where('e.modalidad',1)
+            //                ->where('h.tipoHora',$tipoHora)
                             ->get()
                             ->result();
-          IF(!empty($horas)){$query1 = array_merge($query1,$horas); }
-        }
-        asort($query1);
-        //die(var_dump($query1));
-        FOREACH ($query1 as $item){
+
+      //   die(var_dump($horas));
+            FOREACH ($horas as $item){
             
-                $hora  = $this->db->select('id,hora,prestador')
-                        ->from('hora')
-                        ->where('ciudad',$item->ciudad)
-                        ->where('hora',$item->hora)
-                        ->where('prestador',$item->prestador)
-                        ->where('paciente is  NOT NULL')
+                $hora  = $this->db->select('e.id')
+                        ->from('horas_eliminadas e')
+                        ->where('e.idHora',$item->id)
+                        ->where('e.paciente',$item->paciente)
                         ->get()
-                        ->result();
+                        ->row();
+           
+            IF(empty($hora)){ 
+                $array = '';
+                array_push($query2,array ('id'=>$item->id,'hora'=>$item->hora,'nombres'=>$item->nombres,'apellidoPaterno'=>$item->apellidoPaterno,'apellidoMaterno'=>$item->apellidoMaterno,'descripcion'=>$item->descripcion) ) ;}
+            
+        }
+      //  die(var_dump($query2));
+        return  $query2;
+    }
+    
+    
+    public function dameHorasCalendario($ciudad,$especialidad,$tipoHora)
+    {
+        $array = $query1 = $query2 = array();
+       
+    //   die($especialidad);
+         IF(!empty($fecha)){
+            $horaInicio = $fecha.' 00:00:00';
+            $horaFin = $fecha.' 23:00:00';
+         }ELSE {
+             $fecha = date('Y-m-d H:i:s',strtotime ( '+1 day' ));
+             $horaInicio = $fecha;
+             $horaFin = date('Y-m-d H:i:s',strtotime ( '+90 day' ));
+             
+         }
+         
+      
+            $horas  = $this->db->select('h.id,h.ciudad,h.hora,h.paciente,prestador,DAY(h.hora) as dia,MONTH(h.hora) as mes')
+                            ->from('hora h')
+                            ->join('prestador','prestador.id=h.prestador','inner')
+                            ->join('prestador_especialidad e','prestador.id=e.idprestador','inner')
+                            ->where('h.ciudad',$ciudad)
+                    //        ->where('h.tipoHora',$tipoHora)
+                    //        ->where('h.especialidad',$especialidad)
+                            ->where('h.hora >= "'.$horaInicio.'"')
+                            ->where('h.hora <= "'.$horaFin.'"')
+                            ->where('h.paciente is NULL')
+                            ->where('h.idmodalidad',1)
+                            ->where('e.modalidad',1)
+                            ->where('e.idespecialidad',$especialidad)
+                            ->GROUP_BY ( 'dia','mes')
+                            ->get()
+                            ->result();
+         
+   // die(var_dump($horas));
+        FOREACH ($horas as $item){
+            
+                $hora  = $this->db->select('e.id')
+                        ->from('horas_eliminadas e')
+                        ->where('e.idHora',$item->id)
+                        ->where('e.paciente',$item->paciente)
+                        ->get()
+                        ->row();
            
                 IF(empty($hora)){ 
                     $array = '';
-                    array_push($query2,array ('hora'=>$item->hora,'estado'=>'disponible') ) ;
+                    array_push($query2,array ('id'=>$item->id,'hora'=>$item->hora,'estado'=>'disponible') ) ;
                 }ELSE {
+                  //  die(var_dump($hora));
                     $array = '';
               //      array_push($query2,array ('hora'=>$item->hora,'estado'=>'reservada') ) ;
                 }
-            
+            $hora= '';
                
         }
         asort($query2);
@@ -137,30 +128,30 @@ class Calendario_model extends CI_MODEL
          
        
             
-            $horas  = $this->db->select('hora_prestador.id,hora_prestador.ciudad,hora_prestador.hora,prestador,prestador.nombres,prestador.apellidoPaterno,prestador.apellidoMaterno,prestador.descripcion,prestador.especialidad,e.especialidad as espNombre')
-                            ->from('hora_prestador')
-                            ->join('prestador','prestador.id=hora_prestador.prestador')
-                            ->join('especialidad e','e.id=prestador.especialidad')
-                          //  ->where('ciudad',$ciudad)
+            $horas  = $this->db->select('h.id,h.ciudad,h.hora,h.prestador,prestador.nombres,prestador.apellidoPaterno,prestador.apellidoMaterno,prestador.descripcion,e.idespecialidad as especialidad,s.especialidad as espNombre')
+                            ->from('hora h')
+                            ->join('prestador','prestador.id=h.prestador')
+                            
+                            ->join('prestador_especialidad e','prestador.id=e.idprestador','inner')
+                            ->join('especialidad s','s.id=e.idespecialidad')
+                            //  ->where('ciudad',$ciudad)
                             ->where('prestador',$prestador)
                             ->where('hora >= "'.$horaInicio.'"')
                             ->where('hora <= "'.$horaFin.'"')
-                            ->order_by('hora_prestador.hora','asc')
+                            ->where('h.idmodalidad',1)
+                            ->order_by('h.hora','asc')
                             ->get()
                             ->result();
          // IF(!empty($horas)){$query1 = array_merge($query1,$horas); }
         
       //  die(var_dump($horas));
         FOREACH ($horas as $item){
-            //echo $item->ciudad.'ciudad'.$item->hora.'hora'.$item->prestador;
-            $hora  = $this->db->select('id,hora,prestador')
-                        ->from('hora')
-                        ->where('ciudad',$item->ciudad)
-                        ->where('hora',$item->hora)
-                        ->where('prestador',$item->prestador)
-                        ->where('paciente is  NOT NULL')
+            
+                $hora  = $this->db->select('e.id')
+                        ->from('horas_eliminadas e')
+                        ->where('e.idHora',$item->id)
                         ->get()
-                        ->result();
+                        ->row();
            //echo var_dump($hora);
             IF(empty($hora)){ 
                 $array = '';

@@ -21,8 +21,17 @@ class Horas extends CI_Controller
         $especialidad = $item[0];
         $ciudad = $item[1];
         $rut = $item[2];
+        
+        ////BUSCAR HORA ANTERIOR DEL PACIENTE
+        $this->load->model('paciente_model');
+        $this->load->model('reserva_model');
+        $paciente = $this->paciente_model->dameUno($rut);
+        IF(!empty($paciente)){$horaAnterior = $this->reserva_model->dameHoraAnterior($paciente->id);}
+        IF(!empty($horaAnterior) && $horaAnterior->contar >'0')$tipoHora = 'Control';
+        ELSE $tipoHora = 'Nuevo';
+        
         $this->load->model('calendario_model');
-        $respuesta = $this->calendario_model->dameHorasCalendario($ciudad,$especialidad);
+        $respuesta = $this->calendario_model->dameHorasCalendario($ciudad,$especialidad,$tipoHora);
         asort($respuesta);
         $events = array();
         FOREACH($respuesta as $res[0]){

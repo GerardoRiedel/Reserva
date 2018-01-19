@@ -27,7 +27,7 @@ class Reserva_model extends CI_Model
         return $this->db->select('*')
                         ->from('especialidad')
                         ->where('ver','si')
-                        ->order_by('especialidad','asc')
+                        ->order_by('especialidad','desc')
                         ->get()
                         ->result();
     }
@@ -35,18 +35,19 @@ class Reserva_model extends CI_Model
     {
         return $this->db->select('*')
                         ->from('prestador')
+                        ->where('activo','si')
                         ->order_by('apellidoPaterno','asc')
                         ->get()
                         ->result();
     }
     public function dameHora($id)
     {
-        return  $this->db->select('c.direccion,hora_prestador.id,hora_prestador.ciudad,hora_prestador.hora,prestador,prestador.nombres,prestador.apellidoPaterno,prestador.apellidoMaterno,prestador.especialidad as espId,e.especialidad')
-                            ->from('hora_prestador')
-                            ->join('prestador','prestador.id=hora_prestador.prestador')
-                            ->join('ciudad c','c.id=hora_prestador.ciudad')
+        return  $this->db->select('c.direccion,h.id,h.ciudad,h.hora,h.prestador,prestador.nombres,prestador.apellidoPaterno,prestador.apellidoMaterno,prestador.especialidad as espId,e.especialidad')
+                            ->from('hora h')
+                            ->join('prestador','prestador.id=h.prestador')
+                            ->join('ciudad c','c.id=h.ciudad')
                             ->join('especialidad e','e.id=prestador.especialidad')
-                            ->where('hora_prestador.id',$id)
+                            ->where('h.id',$id)
                             ->get()
                             ->row();
     }

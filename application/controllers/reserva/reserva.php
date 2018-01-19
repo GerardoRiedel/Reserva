@@ -11,6 +11,8 @@ class reserva extends CI_Controller {
         $this->load->helper('layout');
         $this->load->model("reserva_model");
         $this->load->model('calendario_model');
+        $this->load->model('paciente_model');
+        
         
         $this->folder = 'uploads/';
         
@@ -26,7 +28,14 @@ class reserva extends CI_Controller {
     public function buscar()
     {  
         $rut = $this->input->post('rut');
+        $rut  = str_replace(array(".","-"), "", $rut);
         $letra   = substr($rut,0,1);if ($letra === "1" || $letra === "2"){$rut = substr($rut, 0, 8);}else {$rut = substr($rut, 0, 7);}
+       
+        ////BUSCAR HORA ANTERIOR DEL PACIENTE
+        $paciente = $this->paciente_model->dameUno($rut);
+        IF(!empty($paciente)){$horaAnterior = $this->reserva_model->dameHoraAnterior($paciente->id);}
+        IF(!empty($horaAnterior) && $horaAnterior->contar >'0')$tipoHora = 'Control';
+        ELSE $tipoHora = 'Nuevo';
         $especialidad = $this->input->post('especialidad');
         $prestador = $this->input->post('prestador');
         $centro = $this->input->post('centro');
@@ -34,16 +43,20 @@ class reserva extends CI_Controller {
         $data['especialidad']= $especialidad;
         $data['centro']= $centro;
         $data['rut']= $rut;
-        $respuesta = $this->calendario_model->dameHorasCalendario($centro,$especialidad);
+  //      $respuesta = $this->calendario_model->dameHorasCalendario($centro,$especialidad,$tipoHora);
 
         
         
-        IF($prestador != 'Selecciona Prestador' && $especialidad === 'Selecciona Área Médica'){
-                $data['data'] = $this->calendario_model->dameHorasPrestador($prestador,$centro);
+        IF($prestador != 'Seleccionar Prestador' && $especialidad === 'Seleccionar Área Médica'){
+                $datos = $this->calendario_model->dameHorasPrestador($prestador,$centro);
+                $especialidad = $datos[0]['especialidad'];
+                $data['especialidad']= $especialidad;
+                $data['data'] = $datos;
+                $respuesta = $this->calendario_model->dameHorasCalendario($centro,$especialidad,$tipoHora);
                 IF(empty($data['data'])) {echo '<script>alert("Sin horas disponibles para el prestador seleccionado");</script>';$this->inicio();}
                 ELSE Layout_Helper::cargaVista($this,'buscar',$data,'visita');  
         }
-        ELSE {
+        ELSE {die;
                 IF(empty($respuesta)) {echo '<script>alert("Sin horas disponibles para la especialidad seleccionada");</script>';$this->inicio();}
                 ELSE Layout_Helper::cargaVista($this,'buscar',$data,'visita');  
         }
@@ -52,12 +65,20 @@ class reserva extends CI_Controller {
     public function detalleDia($item){
         $item = explode('_',$item);
         $fecha = $item[0];
-        $rut = $item[1];$rut  = str_replace(array(".","-"), "", $rut);$letra = substr($rut,0,1);if ($letra === "1" || $letra === "2"){$rut = substr($rut, 0, 8);}else {$rut = substr($rut, 0, 7);}
+        $rut = $item[1];
+        $rut  = str_replace(array(".","-"), "", $rut);
+        //$letra = substr($rut,0,1);if ($letra === "1" || $letra === "2"){$rut = substr($rut, 0, 8);}else {$rut = substr($rut, 0, 7);}
         $especialidad = $item[2];
         $centro = $item[3];
         
-        $this->load->model('calendario_model');
-        $data['data'] = $this->calendario_model->dameHoras($centro,$especialidad,$fecha);
+        
+         ////BUSCAR HORA ANTERIOR DEL PACIENTE
+        $paciente = $this->paciente_model->dameUno($rut);
+        IF(!empty($paciente)){$horaAnterior = $this->reserva_model->dameHoraAnterior($paciente->id);}
+        IF(!empty($horaAnterior) && $horaAnterior->contar >'0')$tipoHora = 'Control';
+        ELSE $tipoHora = 'Nuevo';
+        
+        $data['data'] = $this->calendario_model->dameHoras($centro,$especialidad,$fecha,$tipoHora);
         $data['fecha']= $fecha;
         $data['especialidad']= $especialidad;
         $data['centro']= $centro;
@@ -93,22 +114,27 @@ class reserva extends CI_Controller {
         $this->load->model('reserva_model');
         IF(empty($paciente->id)) {$paciente = $this->paciente_model->dameUno($rut);}
         
-        ////BUSCAR HORA ANTERIOR DEL PACIETNE
+        ////BUSCAR HORA ANTERIOR DEL PACIENTE
         $horaAnterior = $this->reserva_model->dameHoraAnterior($paciente->id);
-        
         IF(!empty($horaAnterior) && $horaAnterior->contar >'0')$this->reserva_model->tipoHora = 'Control';
         ELSE $this->reserva_model->tipoHora = 'Nuevo';
+
         $hora = $this->reserva_model->dameHora($this->input->post('hora'));
         
-        $this->reserva_model->idmodalidad = 1;
-        $this->reserva_model->usuario = 10;
-        $this->reserva_model->hora = $hora->hora;
-        $this->reserva_model->prestador = $hora->prestador;
-        $this->reserva_model->ciudad = $hora->ciudad;
-        $this->reserva_model->paciente = $paciente->id;      
-        $this->reserva_model->especialidad = $hora->espId;    
-        $this->reserva_model->fecha_agendamiento = date('Y-m-d H:i:s');
-        $this->reserva_model->guardar();
+        $idHora = $this->input->post('hora');
+        IF(!empty($idHora)){
+            //$this->reserva_model->idmodalidad = 1;
+            $this->reserva_model->id = $idHora;
+            $this->reserva_model->usuario = 10;
+            //$this->reserva_model->hora = $hora->hora;
+            //$this->reserva_model->prestador = $hora->prestador;
+            //$this->reserva_model->ciudad = $hora->ciudad;
+            $this->reserva_model->paciente = $paciente->id;      
+            //$this->reserva_model->especialidad = $hora->espId;    
+            $this->reserva_model->fecha_agendamiento = date('Y-m-d H:i:s');
+            $this->reserva_model->guardar();
+        }ELSE {die('error sin identificador');}
+        
         
         $horaReserva = $this->reserva_model->dameHoraReserva($paciente->id,$hora->ciudad,$hora->prestador,$hora->hora);      
         //$data['horaReserva'] = $horaReserva;
@@ -230,9 +256,9 @@ $horareserva  = $date->format('H:i');
         $headers = "MIME-Version: 1.0\r\n"; 
         $headers .= "Content-type: text/html; charset=utf-8\r\n"; 
      //   $headers .= "From: Calidad <calidad@cetep.cl>\r\n"; //dirección del remitente 
-        $headers .= "From: Cetep Centro M&eacute;dico <reservas@cetep.cl>\r\n"; //dirección del remitente 
-        $headers .= "bcc: griedel@cetep.cl";
-     //           $headers .= "bcc: dti@cetep.cl,reservas@cetep.cl";
+        $headers .= "From: Cetep Centro Medico <reservas@cetep.cl>\r\n"; //dirección del remitente 
+    //    $headers .= "bcc: griedel@cetep.cl";
+                $headers .= "bcc: dti@cetep.cl,reservas@cetep.cl";
 
         
         

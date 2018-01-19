@@ -13,7 +13,7 @@
       });
     </script>
 </head>
-<body  style="opacity: 0.7">
+<body  style="opacity: 0.8">
     <div class="modal-dialog" id="mostrarmodal">
         <div class="modal-content">
            <div class="modal-header">

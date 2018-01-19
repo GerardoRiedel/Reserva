@@ -11,7 +11,7 @@ $(document).ready(function() {
     
     var especialidad = $("#especialidad").val();
     var centro = $("#centro").val();
-    var rut = $("#rut").val();
+    var rut = $("#rut").val();	
                                 $.ajax({
                                             type: "GET",
                                             url: "<?php echo base_url(); ?>" + "api/horas/index/"+especialidad+"_"+centro+"_"+rut,
@@ -31,68 +31,66 @@ $(document).ready(function() {
     </script>
 <style type='text/css'>
             #calendar {
-                width: 60%;
-                height: 50%;
+                width: 70%;
+                height: 100%;
                 margin: 0 auto;
             }
 </style>
-
-<div class="col-lg-12"><br><br><br></div>
+<div class="noCelular" style="margin-top: -88px"></div>
+<div class="col-lg-12"></div>
 <div class="col-lg-12">
     <br>
     <div class="col-lg-2"></div>
-    <div class="col-lg-8 cajaCabeza" style="border-radius: 15px 15px 15px 15px;padding-top:5px">
-            Servicio en Línea<br>
-                <label>Reserva de Horas</label>
-                
-        </div>
+    <div class="col-lg-8 cajaCabeza" style="border-radius: 15px 15px 15px 15px;padding-top:15px">            
+        <label>Reserva de Horas en Línea</label>
+    </div>
     <div class="col-lg-12"><br></div>
-    <input type="hidden" id="especialidad" value="<?php IF(!empty($especialidad) && $especialidad !== 'Selecciona Área Médica')echo $especialidad; ELSEIF(!empty($data[1]['especialidad'])) echo $data[1]['especialidad']; ?>">
-     <input type="hidden" id="centro" value="<?php echo $centro;?>">
-      <input type="hidden" id="rut" value="<?php echo $rut;?>">
-      <input type="hidden" id="data" value="<?php IF(!empty($data[1]['nombres']))echo $data[1]['nombres'];ELSE echo '0';?>">
-      <div class="col-lg-2"></div>
-      <div class="col-lg-1"><i class="fa fa-chevron-left" aria-hidden="true" onclick="goBack()" style="color:green; cursor: pointer"> Volver</i></div>
-        
-      <?php IF(!empty($data)){ ?>
-      
-      <div class="col-lg-12"></div>
-      <div class="col-lg-2"></div>
-      <div class="col-lg-8" id="prestador">
-          <div align="center">
-              <table style="width:100%">
-                  <tr>
-                      <td align="center" style="width: 250px">
-                            <?php $imgNombre=strtoupper($data[1]['nombres']).' '.strtoupper($data[1]['apellidoPaterno']); $imgNombre= str_replace('Ñ','N', $imgNombre); ?>
-                                    
-                            <img  style="width: 200px;border-radius: 10px;box-shadow: 8px 8px 15px #888888;background: #888888;" src="<?php echo base_url();?>../assets/img/prestadores/<?php echo $imgNombre?>.jpg"  onerror="this.src='<?php echo base_url();?>../assets/img/prestadores/Medico-icono-150x150.png';"/>
-                      </td>
-                      <td>
-                          <label style="font-size:20px">
-                              <?php IF($data[1]['especialidad']==='1')echo ' Dr(a). '?>
-                                <?php echo strtoupper($data[1]['nombres']).' '. strtoupper($data[1]['apellidoPaterno']).' '. strtoupper($data[1]['apellidoMaterno']); ?></label>
+    <input type="hidden" id="especialidad" value="<?php IF(!empty($especialidad) && $especialidad !== 'Selecciona Área Médica')echo $especialidad; ELSEIF(!empty($data[1]['especialidad']))echo $data[1]['especialidad']; ?>">
+    <input type="hidden" id="centro" value="<?php echo $centro;?>">
+    <input type="hidden" id="rut" value="<?php echo $rut;?>">
+    <input type="hidden" id="data" value="<?php IF(!empty($data[1]['nombres']))echo $data[1]['nombres'];ELSE echo '0';?>">
+    <div class="col-lg-2"></div>
+    <div class="col-lg-1" onclick="goBack()" style="color:green; cursor: pointer"><i class="fa fa-chevron-left" aria-hidden="true"></i> Volver</div>
+        <?php IF(!empty($data)){ ?>
+        <div class="col-lg-12"></div>
+		<div class="col-lg-2"></div>
+		<div class="col-lg-8" id="prestador">
+			<div align="center">
+				<table style="width:100%">
+					<tr>
+						<td align="center" style="width: 250px">
+                        <?php $imgNombre=strtoupper($data[1]['nombres']).' '.strtoupper($data[1]['apellidoPaterno']); $imgNombre= str_replace('Ñ','N', $imgNombre); ?>
+						<img  style="width: 200px;border-radius: 10px;box-shadow: 8px 8px 15px #888888;background: #888888;" src="<?php echo base_url();?>../assets/img/prestadores/<?php echo $imgNombre?>.jpg"  onerror="this.src='<?php echo base_url();?>../assets/img/prestadores/Medico-icono-150x150.png';"/>
+						</td>
+						<td>
+							<label style="font-size:20px">
+                            <?php IF($data[1]['especialidad']==='1')echo ' Dr(a). '?>
+                            <?php echo strtoupper($data[1]['nombres']).' '. strtoupper($data[1]['apellidoPaterno']).' '. strtoupper($data[1]['apellidoMaterno']); ?></label>
                             <br>
                             <label>Especialidad: </label>
-                                <?php  
-                                                IF(!empty($data[1]['descripcion']))$descripcion =$data[1]['descripcion'] ; 
-                                                ELSEIF($data[1]['especialidad']==='1') $descripcion ='Médico Psiquiatra';  
-                                                ELSEIF($data[1]['especialidad']==='2') $descripcion ='Psicologo';  
-                                                echo ' '.$descripcion;
-                                ?>
+                            <?php  
+                                IF(!empty($data[1]['descripcion']))$descripcion =$data[1]['descripcion'] ; 
+                                ELSEIF($especialidad==='1') $descripcion ='Médico Psíquiatra Adultos';  
+                                ELSEIF($especialidad==='10') $descripcion ='Médico Psíquiatra Infantil-Adolecente';  
+                                ELSEIF($especialidad==='2') $descripcion ='Psícologo Clínico Adultos';  
+                                ELSEIF($especialidad==='8') $descripcion ='Psícologo Clínico Infantíl';  
+                                ELSEIF($especialidad==='7') $descripcion ='Psicopedagoga';  
+                                ELSEIF($especialidad==='4') $descripcion ='Terapeuta Ocupacional';  
+                                ELSE $descripcion=$especialidad;
+                            echo ' '.$descripcion;
+                            ?>
                             <br>
                             <label>Centro: </label>
                                 <?php IF($centro==='1')echo 'Providencia.'; ELSEIF($centro==='2')echo 'Rancagua.'; IF($centro==='3')echo 'Concepción.';?>
                             <br>
-                            
                             <hr style="height: 3px; background-color: rgb(52, 180, 77)">
-                      </td>
-                  </tr>
-              </table>
-            
-          </div>
-          <div class="col-lg-12"></div>
-          <div class="col-lg-2"></div>
-          <div class="col-lg-8">
+						</td>
+					</tr>
+				</table>            
+			</div>
+			<div class="col-lg-12"></div>
+			<div class="col-lg-2"></div>
+			<div class="col-lg-8">
                 <table class='table table-bordered table-hover table-striped data-table'>
                     <thead>
                         <tr>
@@ -125,10 +123,8 @@ $(document).ready(function() {
                 </table>
           </div>
       </div>
-      </div>
-      
+      </div>      
       <?php } ;?>
-
       <div class="col-lg-12"></div>
       <div class="col-lg-3"></div>
       <div class="col-lg-7">
@@ -146,9 +142,9 @@ $(document).ready(function() {
       </div>
       <div class="col-lg-12"></div>
       <div class="col-lg-3"></div>
-      <div class="col-lg-8" >
-            <div id="textPrestador">
-                <label>Por favor, selecciona <span style="color:#F60; font-size: 15px">"Hoy"</span> para ver la disponibilidad y luego el día a agendar para ver el horario</label><br><br>
+      <div class="col-lg-8 celular" >
+            <div id="textPrestador" style="margin-left:140px">
+                <label>Seleccionar día a agendar para ver horarios disponibles </label><br><br>
             </div>
       </div>
       <div class="col-lg-12"></div>
@@ -169,12 +165,11 @@ $(document).ready(function() {
     if($("#data").val() != '0'){ $("#calendario").hide();$("#textPrestador").hide();}
     
     $("#buscarCalendario").click(function(){
-        $("#calendario").show();
-       $("#textCalendario").hide();
-       $("#textPrestador").show();
+		$("#calendario").show();
+		$("#textCalendario").hide();
+		$("#textPrestador").show();
         $("#prestador").hide();
-   });
-
+	});
 </script>
 <script src="<?php echo base_url(); ?>../assets/js/jquery.dataTables.js"></script>
 <script src="<?php echo base_url(); ?>../assets/js/jquery.nicescroll.min.js"></script>

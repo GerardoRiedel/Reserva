@@ -1,12 +1,5 @@
-<style>
-@media (max-width: 600px) {
-    #foo{
-        position: absolute;
-        top:500px;
-    }
-}
-</style>
-<div class="row" id="foo" style=" background-color: #f4f4f2">
+
+<div class="row celular" id="foo" style=" background-color: #f4f4f2">
             <div id="footer" class="col-xs-12 activo" style="color: black" >
             2017 &copy; Cetep. Todos los derechos reservados.
             </div>

@@ -1,53 +1,54 @@
 
-<div style="margin-left:0px; margin-top:100px; min-height:500px">
+<div style="margin-left:0px; margin-top:65px; min-height:500px">
     <div class="col-lg-12">
         <?php $attributes = array('id' => 'form');
                 echo form_open('reserva/reserva/buscar',$attributes);
         ?>
+        <div class="noCelular" style="margin-top: -130px"></div>
         <div class="col-lg-2"></div>
-        <div class="col-lg-8 cajaCabeza" style="border-radius: 15px 15px 15px 15px;padding-top:5px">
-            Servicio en Línea<br>
-                <label>Reserva de Horas</label>
+        
+        <div class="col-lg-8 cajaCabeza" style="border-radius: 15px 15px 15px 15px;padding-top:15px">
+            
+                <label>Reserva de Horas en Línea</label>
         </div>
-        <div class="col-lg-12"><br></div>
-        <div class="col-lg-2"></div>
-        <div class="col-lg-2 cajaCabeza" align="center"><br>
-            <label>Selecciona Área Médica</label>
-        </div>
-        <div class="col-lg-1"></div>
-        <div class="col-lg-2 cajaCabeza" align="center"><br>
-            <label>Selecciona Ubicación</label>
-        </div>
-        <div class="col-lg-1"></div>
-        <div class="col-lg-2 cajaCabeza" align="center"><br>
-            <label>Ingresa datos del paciente</label>
+        <div class="celular">
+            <div class="col-lg-12"><br></div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-2 cajaCabeza" align="center"><br>
+                <label>Seleccionar Área Médica</label>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-2 cajaCabeza" align="center"><br>
+                <label>Seleccionar Ubicación</label>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-2 cajaCabeza" align="center"><br>
+                <label>Ingresa datos del paciente</label>
+            </div>
         </div>
         <div class="col-lg-12"></div>
         
         <div class="col-lg-2"></div>
         <div class="col-lg-2 caja"><br>
-            <div id="esp">
+            <div id="esp" align="left">
             <select name="especialidad" required id="especialidad" style="width: 200px">
-                <option>Selecciona Área Médica</option>
+                <option>Seleccionar Área Médica</option>
                 <?php FOREACH($especialidad as $item){ ?>
-                    <option value="<?php echo $item->id ?>"><?php echo $item->especialidad; IF($item->id==='1') echo ' Adulto'; ELSEIF($item->id==='2') echo ' Adulto'; ?></option>
-                    <?php IF($item->id==='1' || $item->id==='2') { ?>
-                    <option value="<?php echo $item->id ?>"><?php echo $item->especialidad.' Infanto-Juvenil';  ?></option>
-                   <?php } ?>
+                    <option value="<?php echo $item->id ?>"><?php echo $item->especialidad;?></option>
                 <?php } ?>
             </select>
                 <br><br>
-                <span id="buscarPrestador" style="cursor: pointer">&nbsp;&nbsp;ó buscar por prestador</span>
+                <span id="buscarPrestador" style="cursor: pointer" >ó buscar por prestador</span>
                 <img class="icon" src="<?php echo base_url();?>../assets/img/icons/signo.png" id="icon" style="margin-left:-0px;margin-top:-5px"/>
             </div>
-            <div id="pre"><br>
-            <select name="prestador" required id="prestador" style="width: 300px">
-                <option>Selecciona Prestador</option>
+            <div id="pre" align="left" ><br>
+            <select name="prestador" required id="prestador" style="width: 300px" >
+                <option>Seleccionar Prestador</option>
                 <?php FOREACH($prestador as $item){ ?>
                     <option value="<?php echo $item->id ?>"><?php echo strtoupper($item->apellidoPaterno).' '.strtoupper($item->apellidoMaterno).' '.strtoupper($item->nombres);  ?></option>
                 <?php } ?>
             </select>
-                 <br><br>
+                 <br class="celular"><br class="celular">
                  <!--
                  <span id="buscarEspecialidad" style="cursor: pointer">&nbsp;&nbsp;ó buscar por especialidad</span>
                  -->
@@ -56,18 +57,23 @@
             
             
         </div>
-        <div class="col-lg-1"></div>
-        <div class="col-lg-2 caja" ><br>
-            <input type="radio" name="centro" value="1" required checked="true">  <label> Providencia</label><br>
-            <input type="radio" name="centro" value="2" required>  <label> Rancagua</label><br>
-            <input type="radio" name="centro" value="3" required>  <label> Concepción</label></option>
+        <div class="col-lg-1 celular"></div>
+        <div class="noCelular" style="margin-top: -10px"></div>
+        <div class="col-lg-2 caja"  align="left"><br class="celular">
+            <div class="noCelular"style="color:#F60"  ><br>Seleccione Centro:<br></div>
+            <input type="radio" name="centro" value="1" required checked="true">  <label> Providencia, Santiago</label><br>
+            <input type="radio" name="centro" value="2" required readonly>  <label> Rancagua</label><br>
+            <input type="radio" name="centro" value="3" required readonly>  <label> Concepción</label></option>
         </div>
-        <div class="col-lg-1"></div>
-        <div class="col-lg-2 caja" ><br>
+        <div class="col-lg-1 celular"></div>
+        <div class="noCelular" style="margin-top: -10px"></div>
+        <div class="col-lg-2 caja"align="left"  ><br class="celular">
+            <div class="noCelular" style="color:#F60" >Ingrese rut:<br></div>
             <input type="text" name="rut" placeholder="Ej: 12.345.678-9" id="rut" title="Ingrese rut valido">
-            <img class="icon" src="<?php echo base_url();?>../assets/img/icons/signo.png" id="iconRut" style="margin-left:155px;margin-top:-50px""/>
+            <img class="icon celular" src="<?php echo base_url();?>../assets/img/icons/signo.png" id="iconRut" style="margin-left:155px;margin-top:-50px""/>
         </div>
-        <div class="col-lg-12"><br></div>
+        <div class="col-lg-12 celular"><br class="celular"></div>
+        <div class="noCelular" style="margin-top: -90px"></div>
         <div class="col-lg-12" align="center">
                 <?php echo form_submit('','Buscar','class="btn btn-primary btn-sm btnCetep"');?>
                 <?php echo form_close();?>
@@ -86,11 +92,11 @@
        $("#iconRut").hide(); 
         
        var rut = $("#rut").val();
-       if($("#especialidad").val()==='Selecciona Área Médica' && $("#prestador").val()==='Selecciona Prestador'  ) {$("#icon").show();}
+       if($("#especialidad").val()==='Seleccionar Área Médica' && $("#prestador").val()==='Seleccionar Prestador'  ) {$("#icon").show();}
        if(rut===''){$("#iconRut").show();}
        
        
-       if($("#especialidad").val()==='Selecciona Área Médica' && $("#prestador").val()==='Selecciona Prestador'  ) {return false;}
+       if($("#especialidad").val()==='Seleccionar Área Médica' && $("#prestador").val()==='Seleccionar Prestador'  ) {return false;}
        if(rut===''){return false;}
        
        
@@ -113,12 +119,12 @@
 $("#buscarEspecialidad").click(function(){
     $("#esp").show();
     $("#pre").hide();
-    $("#prestador").prepend("<option selected='selected'>Selecciona Prestador</option>");
+    $("#prestador").prepend("<option selected='selected'>Seleccionar Prestador</option>");
    });
 $("#buscarPrestador").click(function(){
     $("#esp").hide();
     $("#pre").show();
-    $("#especialidad").prepend("<option selected='selected'>Selecciona Área Médica</option>");
+    $("#especialidad").prepend("<option selected='selected'>Seleccionar Área Médica</option>");
 });
 function validaRut(campo){
    
@@ -126,6 +132,7 @@ function validaRut(campo){
 	if ( campo.length < 7 ){ return false; }
 
 	campo = campo.replace('-','')
+	campo = campo.replace('.','')
 	campo = campo.replace(/\./g,'')
 
 	var suma = 0;
