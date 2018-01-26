@@ -56,7 +56,8 @@ class reserva extends CI_Controller {
                 IF(empty($data['data'])) {echo '<script>alert("Sin horas disponibles para el prestador seleccionado");</script>';$this->inicio();}
                 ELSE Layout_Helper::cargaVista($this,'buscar',$data,'visita');  
         }
-        ELSE {die;
+        ELSE {
+                $respuesta = $this->calendario_model->dameHorasCalendario($centro,$especialidad,$tipoHora);
                 IF(empty($respuesta)) {echo '<script>alert("Sin horas disponibles para la especialidad seleccionada");</script>';$this->inicio();}
                 ELSE Layout_Helper::cargaVista($this,'buscar',$data,'visita');  
         }
