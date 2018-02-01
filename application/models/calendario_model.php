@@ -131,7 +131,7 @@ class Calendario_model extends CI_MODEL
             $horas  = $this->db->select('h.id,h.ciudad,h.hora,h.prestador,prestador.nombres,prestador.apellidoPaterno,prestador.apellidoMaterno,prestador.descripcion,e.idespecialidad as especialidad,s.especialidad as espNombre')
                             ->from('hora h')
                             ->join('prestador','prestador.id=h.prestador')
-                            
+                            ->where('h.paciente is NULL')
                             ->join('prestador_especialidad e','prestador.id=e.idprestador','inner')
                             ->join('especialidad s','s.id=e.idespecialidad')
                             //  ->where('ciudad',$ciudad)
