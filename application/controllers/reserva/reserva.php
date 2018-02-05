@@ -214,19 +214,19 @@ $horareserva  = $date->format('H:i');
     <br>
     <br>
     <p>
-    <u>Para confirmar o anular su hora, le agradecemos nos cont&aacute;cte al 22604 4040 &oacute; al 22604 4041.</u>
+    <u>Para confirmar o anular su hora, le agradecemos nos contacte al 22604 4040 o al 22604 4041.</u>
     <br>
     <br>
-    <strong>Le recordamos llegar 15 minutos antes, para realizar los tr&aacute;mites administrativos</strong>
-    <br>
-    <br>
-    
-    <u> En el caso que venga atrasado(a) a su hora le agradecemos avisar telef&oacute;nicamente al 22604 4040 &oacute;  al 22604 4041  y preguntar si su tratante lo podr&aacute; atender.</u>
+    <strong>Le recordamos llegar 15 minutos antes, para realizar los tr&aacute;mites administrativos.</strong>
     <br>
     <br>
     
+    <u> En el caso que venga atrasado(a) a su hora, le agradecemos avisar telef&oacute;nicamente al 22604 4040 o al 22604 4041  y preguntar si su tratante lo podr&aacute; atender.</u>
+    <br>
+    <br>
     
-    Si usted tiene seguro complementario le recordamos traer el formulario correspondiente y entreg&aacute;rselo al tratante una vez ingresado al box. 
+    
+    Si usted tiene seguro complementario, le recordamos traer el formulario correspondiente y entreg&aacute;rselo al tratante una vez ingresado al box. 
     Nuestra direcci&oacute;n es San P&iacute;o X 2460 of. 1506. Providencia.
     <br>
     <br>
