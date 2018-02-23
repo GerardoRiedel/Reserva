@@ -49,10 +49,12 @@ class reserva extends CI_Controller {
         
         IF($prestador != 'Seleccionar Prestador' && $especialidad === 'Seleccionar Área Médica'){
                 $datos = $this->calendario_model->dameHorasPrestador($prestador,$centro);
-                $especialidad = $datos[0]['especialidad'];
-                $data['especialidad']= $especialidad;
-                $data['data'] = $datos;
-                $respuesta = $this->calendario_model->dameHorasCalendario($centro,$especialidad,$tipoHora);
+                IF(!empty($datos)){
+                    $especialidad = $datos[0]['especialidad'];
+                    $data['especialidad']= $especialidad;
+                    $data['data'] = $datos;
+                    $respuesta = $this->calendario_model->dameHorasCalendario($centro,$especialidad,$tipoHora);
+                }
                 IF(empty($data['data'])) {echo '<script>alert("Sin horas disponibles para el prestador seleccionado");</script>';$this->inicio();}
                 ELSE Layout_Helper::cargaVista($this,'buscar',$data,'visita');  
         }
