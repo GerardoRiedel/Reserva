@@ -67,9 +67,19 @@
         <div class="noCelular" style="margin-top: -60px"></div>
         <div class="col-lg-2 caja"  align="center"><br class="celular">
             <div class="noCelular"style="color:#F60"  ><br>Seleccione Centro:<br></div>
-            <input type="radio" name="centro" value="1" required checked="true">  <label> Providencia</label><br>
-            <input type="radio" name="centro" value="2" required readonly>  <label> Rancagua</label><br>
-            <input type="radio" name="centro" value="3" required readonly>  <label> Concepción</label></option>
+            <table>
+                <tr>
+                    <td><input type="radio" name="centro" value="1" required checked="true"></td>
+                    <td><label>&nbsp;&nbsp;Providencia</label></td>
+                </tr>
+                <tr><td><input type="radio" name="centro" value="2" required readonly></td>
+                    <td><label>&nbsp;&nbsp;Rancagua</label></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="centro" value="3" required readonly></td>
+                    <td><label>&nbsp;&nbsp;Concepción</label></td>
+                </tr>
+            </table>
         </div>
         <div class="col-lg-1 celular"></div>
         <div class="noCelular" style="margin-top: -10px"></div>
@@ -126,12 +136,12 @@
 $("#buscarEspecialidad").click(function(){
     $("#esp").show();
     $("#pre").hide();
-    $("#prestador").prepend("<option selected='selected'>Seleccionar Prestador</option>");
+    //$("#prestador").prepend("<option selected='selected'>Seleccionar Prestador</option>");
    });
 $("#buscarPrestador").click(function(){
     $("#esp").hide();
     $("#pre").show();
-    $("#especialidad").prepend("<option selected='selected'>Seleccionar Área Médica</option>");
+    //$("#especialidad").prepend("<option selected='selected'>Seleccionar Área Médica</option>");
 });
 function validaRut(campo){
    
