@@ -28,10 +28,10 @@ $(document).ready(function() {
                                             }
                                         });
 });
-    </script>
+</script>
 <style type='text/css'>
             #calendar {
-                width: 70%;
+                width: 100%;
                 height: 100%;
                 margin: 0 auto;
             }
@@ -149,10 +149,8 @@ $(document).ready(function() {
       </div>
       <div class="col-lg-12"></div>
       <div class="col-lg-2"></div>
-      <div class="col-lg-8" id="calendario">
-          
-        <div id='calendar'></div>
-          
+      <div class="col-lg-8" id="calendario" >
+          <div id='calendar' style="max-width:650px"></div>
       </div>             
    </div>
 </div><!-- content -->

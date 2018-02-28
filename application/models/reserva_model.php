@@ -27,7 +27,7 @@ class Reserva_model extends CI_Model
         return $this->db->select('*')
                         ->from('especialidad')
                         ->where('ver','si')
-                        ->order_by('especialidad','desc')
+                        ->order_by('especialidad','asc')
                         ->get()
                         ->result();
     }

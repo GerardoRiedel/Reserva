@@ -16,19 +16,19 @@
             <div class="col-lg-2"></div>
             <div class="col-lg-2 cajaCabeza" align="center" >
                 <br>
-                <img src="<?php echo base_url();?>../assets/img/1.png" style="width: 25px; margin-top:-4px"/>
+                <img src="<?php echo base_url();?>../assets/img/1.png" style="width: 30px; margin-top:-6px;margin-left:-6px"/>
                 <label>Seleccione Área Médica</label>
             </div>
             <div class="col-lg-1"></div>
             <div class="col-lg-2 cajaCabeza" align="center">
                 <br>
-                <img src="<?php echo base_url();?>../assets/img/2.png" style="width: 25px; margin-top:-4px"/>
+                <img src="<?php echo base_url();?>../assets/img/2.png" style="width: 30px; margin-top:-6px;margin-left:-6px"/>
                 <label>Seleccione Ubicación</label>
             </div>
             <div class="col-lg-1"></div>
             <div class="col-lg-2 cajaCabeza" align="center">
                 <br>
-                <img src="<?php echo base_url();?>../assets/img/3.png" style="width: 25px; margin-top:-4px"/>
+                <img src="<?php echo base_url();?>../assets/img/3.png" style="width: 30px; margin-top:-6px;margin-left:-6px"/>
                 <label>Datos del paciente</label>
             </div>
         </div>
@@ -55,9 +55,9 @@
                 <?php } ?>
             </select>
                  <br class="celular"><br class="celular">
-                 <!--
+                 
                  <span id="buscarEspecialidad" style="cursor: pointer">&nbsp;&nbsp;ó buscar por especialidad</span>
-                 -->
+                 
             </div>
             
             
@@ -93,7 +93,7 @@
 <script>
     $("#icon").hide();
     $("#iconRut").hide();
- //   $("#pre").hide();
+    $("#pre").hide();
     $("#form").submit(function () { 
        $("#icon").hide();
        $("#iconRut").hide(); 
