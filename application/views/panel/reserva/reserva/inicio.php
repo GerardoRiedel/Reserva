@@ -47,16 +47,16 @@
                 <span id="buscarPrestador" style="cursor: pointer" >ó buscar por prestador</span>
                 <img class="icon" src="<?php echo base_url();?>../assets/img/icons/signo.png" id="icon" style="margin-left:-0px;margin-top:-5px"/>
             </div>
-            <div id="pre" align="center" ><br>
+            <div id="pre" align="center" >
             <select name="prestador" required id="prestador" style="width: 200px" >
                 <option>Seleccionar Prestador</option>
                 <?php FOREACH($prestador as $item){ ?>
                     <option value="<?php echo $item->id ?>"><?php echo strtoupper($item->apellidoPaterno).' '.strtoupper($item->apellidoMaterno).' '.strtoupper($item->nombres);  ?></option>
                 <?php } ?>
             </select>
-                 <br class="celular"><br class="celular">
+                 <br><br>
                  
-                 <span id="buscarEspecialidad" style="cursor: pointer">&nbsp;&nbsp;ó buscar por especialidad</span>
+                 <span id="buscarEspecialidad" style="cursor: pointer">ó buscar por especialidad</span>
                  
             </div>
             
@@ -64,7 +64,7 @@
             
         </div>
         <div class="col-lg-1 celular"></div>
-        <div class="noCelular" style="margin-top: -10px"></div>
+        <div class="noCelular" style="margin-top: -60px"></div>
         <div class="col-lg-2 caja"  align="center"><br class="celular">
             <div class="noCelular"style="color:#F60"  ><br>Seleccione Centro:<br></div>
             <input type="radio" name="centro" value="1" required checked="true">  <label> Providencia</label><br>
