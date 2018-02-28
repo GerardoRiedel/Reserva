@@ -8,29 +8,35 @@
         <div class="col-lg-2"></div>
         
         <div class="col-lg-8 cajaCabeza" style="border-radius: 15px 15px 15px 15px;padding-top:15px">
-            
-                <label>Reserva de Horas en Línea</label>
+            <div align="left" class="noCelular" style="position:absolute; top:7px"><img src="<?php echo base_url();?>../assets/img/logo_vertical_cetep.png" style="width: 50px"/></div>
+            <label>Reserva de Horas en Línea</label>
         </div>
         <div class="celular">
             <div class="col-lg-12"><br></div>
             <div class="col-lg-2"></div>
-            <div class="col-lg-2 cajaCabeza" align="center"><br>
-                <label>Seleccionar Área Médica</label>
+            <div class="col-lg-2 cajaCabeza" align="center" >
+                <br>
+                <img src="<?php echo base_url();?>../assets/img/1.png" style="width: 25px; margin-top:-4px"/>
+                <label>Seleccione Área Médica</label>
             </div>
             <div class="col-lg-1"></div>
-            <div class="col-lg-2 cajaCabeza" align="center"><br>
-                <label>Seleccionar Ubicación</label>
+            <div class="col-lg-2 cajaCabeza" align="center">
+                <br>
+                <img src="<?php echo base_url();?>../assets/img/2.png" style="width: 25px; margin-top:-4px"/>
+                <label>Seleccione Ubicación</label>
             </div>
             <div class="col-lg-1"></div>
-            <div class="col-lg-2 cajaCabeza" align="center"><br>
-                <label>Ingresa datos del paciente</label>
+            <div class="col-lg-2 cajaCabeza" align="center">
+                <br>
+                <img src="<?php echo base_url();?>../assets/img/3.png" style="width: 25px; margin-top:-4px"/>
+                <label>Datos del paciente</label>
             </div>
         </div>
         <div class="col-lg-12"></div>
         
         <div class="col-lg-2"></div>
         <div class="col-lg-2 caja"><br>
-            <div id="esp" align="left">
+            <div id="esp" align="center">
             <select name="especialidad" required id="especialidad" style="width: 200px">
                 <option>Seleccionar Área Médica</option>
                 <?php FOREACH($especialidad as $item){ ?>
@@ -41,8 +47,8 @@
                 <span id="buscarPrestador" style="cursor: pointer" >ó buscar por prestador</span>
                 <img class="icon" src="<?php echo base_url();?>../assets/img/icons/signo.png" id="icon" style="margin-left:-0px;margin-top:-5px"/>
             </div>
-            <div id="pre" align="left" ><br>
-            <select name="prestador" required id="prestador" style="width: 300px" >
+            <div id="pre" align="center" ><br>
+            <select name="prestador" required id="prestador" style="width: 200px" >
                 <option>Seleccionar Prestador</option>
                 <?php FOREACH($prestador as $item){ ?>
                     <option value="<?php echo $item->id ?>"><?php echo strtoupper($item->apellidoPaterno).' '.strtoupper($item->apellidoMaterno).' '.strtoupper($item->nombres);  ?></option>
@@ -59,17 +65,18 @@
         </div>
         <div class="col-lg-1 celular"></div>
         <div class="noCelular" style="margin-top: -10px"></div>
-        <div class="col-lg-2 caja"  align="left"><br class="celular">
+        <div class="col-lg-2 caja"  align="center"><br class="celular">
             <div class="noCelular"style="color:#F60"  ><br>Seleccione Centro:<br></div>
-            <input type="radio" name="centro" value="1" required checked="true">  <label> Providencia, Santiago</label><br>
+            <input type="radio" name="centro" value="1" required checked="true">  <label> Providencia</label><br>
             <input type="radio" name="centro" value="2" required readonly>  <label> Rancagua</label><br>
             <input type="radio" name="centro" value="3" required readonly>  <label> Concepción</label></option>
         </div>
         <div class="col-lg-1 celular"></div>
         <div class="noCelular" style="margin-top: -10px"></div>
-        <div class="col-lg-2 caja"align="left"  ><br class="celular">
+        <div class="col-lg-2 caja"align="center"  ><br class="celular">
             <div class="noCelular" style="color:#F60" >Ingrese rut:<br></div>
-            <input type="text" name="rut" placeholder="Ej: 12.345.678-9" id="rut" title="Ingrese rut valido">
+            <div class="celular" ><label>ingrese rut</label><br></div>
+            <input type="text" name="rut" placeholder="Ej: 12.345.678-9" id="rut" title="Ingrese rut válido">
             <img class="icon celular" src="<?php echo base_url();?>../assets/img/icons/signo.png" id="iconRut" style="margin-left:155px;margin-top:-50px""/>
         </div>
         <div class="col-lg-12 celular"><br class="celular"></div>
