@@ -77,6 +77,20 @@ class Reserva_model extends CI_Model
                             ->row();
     }
     
+    public function dameHoraFutura($paciente,$ciudad,$especialidad)
+    {
+        $dia = date('Y-m-d H:i:s');
+        return  $this->db->select('*')
+                            ->from('hora h')
+                            ->join('paciente p','p.id=h.paciente')
+                            ->where('h.paciente',$paciente)
+                            ->where('h.ciudad',$ciudad)
+                            ->where('h.especialidad',$especialidad)
+                            ->where('h.hora >=',"$dia")
+                            ->get()
+                            ->row();
+    }
+    
     
     
     

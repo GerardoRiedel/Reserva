@@ -63,4 +63,20 @@ class Horas extends CI_Controller
         }
             echo json_encode($events);
     }
+    public function existeRut($item){
+        $item = explode('_', $item);
+        $especialidad = $item[0];
+        $ciudad = $item[1];
+        $rut = $item[2];
+        $largo = strlen($rut)-1;
+        $rut = substr($rut, 0, $largo);
+        ////BUSCAR HORA FUTURA DEL PACIENTE
+        $this->load->model('paciente_model');
+        $this->load->model('reserva_model');
+        $paciente = $this->paciente_model->dameUno($rut);
+        IF(!empty($paciente)){$horaFutura = $this->reserva_model->dameHoraFutura($paciente->id,$ciudad,$especialidad);}
+        IF(empty($horaFutura))$horaFutura = 'no';
+        //$horaFutura = 'no';
+        echo json_encode($horaFutura);
+    }
 }

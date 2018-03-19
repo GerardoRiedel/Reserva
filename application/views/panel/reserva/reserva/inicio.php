@@ -100,6 +100,7 @@
     
     
 </div>
+
 <script>
     $("#icon").hide();
     $("#iconRut").hide();
@@ -118,6 +119,7 @@
        
        
         var validar = validaRut(rut);
+        if (validar == true){existeRut();}
         if (validar != true && rut !== ''){alert('rut invalido');return false;}
     });
    
@@ -143,6 +145,30 @@ $("#buscarPrestador").click(function(){
     $("#pre").show();
     //$("#especialidad").prepend("<option selected='selected'>Seleccionar Área Médica</option>");
 });
+
+function existeRut(){
+    var especialidad = $("#especialidad").val();
+    var centro = $('input:radio[name=centro]:checked').val();
+    var rut = $("#rut").val();	
+
+    $.ajax({
+        type: "GET",
+        url: "<?php echo base_url(); ?>" + "api/horas/existeRut/"+especialidad+"_"+centro+"_"+rut,
+        dataType: 'json',
+        success: function(data){
+            if(data != 'no') {
+                var hora = data.hora;
+                var dia = hora.split(" ");
+                hora = dia[1].split(":");
+                dia = dia[0].split("-");
+                dia = dia[2]+'-'+dia[1]+'-'+dia[0];
+                var nombre = data.nombres+' '+data.apellidoPaterno;
+                var confirmar = confirm('Estimado '+nombre+', usted tiene una hora reservada para la especialidad seleccionada para el '+dia+', a las '+hora[0]+':'+hora[1]+'horas. ¿Desea reservar una nueva hora?');
+                if(confirmar !== true){ window.location.assign('../');}
+           }
+        }
+    });
+}
 function validaRut(campo){
    
 	if ( campo.length == 0 ){ return false; }

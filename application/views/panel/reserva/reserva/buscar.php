@@ -12,21 +12,21 @@ $(document).ready(function() {
     var especialidad = $("#especialidad").val();
     var centro = $("#centro").val();
     var rut = $("#rut").val();	
-                                $.ajax({
-                                            type: "GET",
-                                            url: "<?php echo base_url(); ?>" + "api/horas/index/"+especialidad+"_"+centro+"_"+rut,
-                                            dataType: 'json',
-                                            success: function(data){
-                                                    var calendar = $('#calendar').fullCalendar({
-                                                        monthNames: ['Enero','Febrero','Marzo','Abril','Mayo','Junio',  'Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'],
-                                                            events: data,
-                                                 //          dayClick: function(date, jsEvent, view) {
-                                                   //                   window.location.assign('detalleDia/' + date.format()+'_'+rut+'_'+especialidad+'_'+centro);
-                                                  //                    $(this).css('background-color', 'green');
-                                                   //         }
-                                                   })
-                                            }
-                                        });
+    $.ajax({
+        type: "GET",
+        url: "<?php echo base_url(); ?>" + "api/horas/index/"+especialidad+"_"+centro+"_"+rut,
+        dataType: 'json',
+        success: function(data){
+                var calendar = $('#calendar').fullCalendar({
+                    monthNames: ['Enero','Febrero','Marzo','Abril','Mayo','Junio',  'Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'],
+                        events: data,
+             //          dayClick: function(date, jsEvent, view) {
+               //                   window.location.assign('detalleDia/' + date.format()+'_'+rut+'_'+especialidad+'_'+centro);
+              //                    $(this).css('background-color', 'green');
+               //         }
+               })
+        }
+    });
 });
 </script>
 <style type='text/css'>
@@ -108,8 +108,7 @@ $(document).ready(function() {
                                 $d = $date->format('d');
                                 $hora = $date->format('H:i');
                                 $m = $date->format('m'); IF($m === '12')$m='Diciembre';ELSEIF($m === '01')$m='Enero';ELSEIF($m === '02')$m='Febrero';ELSEIF($m === '03')$m='Marzo';
-
-                       ?>
+                        ?>
                         <tr>
                             <td style="display: none"><?php  echo $date->format('Y-m-d'); ?></td>
                             <td align="left" style="padding-left:100px"><?php  echo $dia.', <b style="color:#F60";>'.$d.'</b> de '.$m; ?></td>
